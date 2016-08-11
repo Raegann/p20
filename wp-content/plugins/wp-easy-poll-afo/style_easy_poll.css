@@ -1,0 +1,38 @@
+.poll_list{
+	margin:0px;
+	padding:0px;
+}
+.poll_list li{
+	list-style-type:none;
+	border:none !important;
+}
+.view_result{
+	padding:0px 0px 0px 10px;
+}
+.error{
+	width:98%;
+	margin:0px auto;
+	padding:5px;
+	background-color:#F1DEDE;
+	color:#F32425;
+	border-radius:4px;
+}
+.success{
+	width:98%;
+	margin:0px auto;
+	padding:5px;
+	background-color:#E3F4EA;
+	color:#277A2D;
+	border-radius:4px;
+}
+
+.admin-success{
+	width:96%;
+	margin:0px auto;
+	padding:5px;
+	background-color:#E3F4EA;
+	color:#277A2D;
+	border-radius:4px;
+	margin:0px 5px 5px 0px;
+	border:1px solid #277A2D;
+}
