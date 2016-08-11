@@ -59,17 +59,15 @@
        <div class="<?php echo esc_attr($post_wrap_class); ?>">
            
                                
-                    <?php $terms = wp_get_post_terms( $post_id, $profession );
-                
-                            foreach($terms as $term){
-                                
-                                echo $term;
-                            }; 
-                    
-                    
-                    ?>
-                   
-             
+                <?php  $getslugid = wp_get_post_terms( $post->ID, 'profession' ); 
+                            foreach( $getslugid as $thisslug ) {
+
+                                echo $thisslug->slug . ' '; 
+                                $term_link = get_term_link( $term );
+                                echo $term_link;
+
+                }?>
+           
                     
 	<?php
 
