@@ -1,0 +1,2404 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: UniqMag\n"
+"POT-Creation-Date: 2016-01-19 17:27+0200\n"
+"PO-Revision-Date: 2016-01-19 17:27+0200\n"
+"Last-Translator: Orange Themes <support@orange-themes.com>\n"
+"Language-Team: Different Themes <support@different-themes.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;esc_html__;esc_html_e;"
+"esc_attr_e;esc_attr__;_n\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:22
+msgid "404"
+msgstr ""
+
+#: 404.php:23
+msgid "Something went terribly wrong..."
+msgstr ""
+
+#: 404.php:25
+msgid ""
+"But don't worry, it can happen to the best of us - and it just happen to you!"
+msgstr ""
+
+#: 404.php:26
+msgid " You can search something else or read this text one more time."
+msgstr ""
+
+#: 404.php:30 includes/top.php:173
+msgid "Type and press enter..."
+msgstr ""
+
+#: 404.php:33
+msgid "Back to home page"
+msgstr ""
+
+#: comments.php:6
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: comments.php:19
+msgid "0 Comments"
+msgstr ""
+
+#: comments.php:19
+msgid "1 Comment"
+msgstr ""
+
+#: comments.php:19
+msgid "% Comments"
+msgstr ""
+
+#: comments.php:30
+msgid "No Comments Yet!"
+msgstr ""
+
+#: comments.php:31
+msgid "You can be first to"
+msgstr ""
+
+#: comments.php:31
+msgid "comment this post!"
+msgstr ""
+
+#: comments.php:41
+msgid "Leave a Comment"
+msgstr ""
+
+#: comments.php:43
+#, php-format
+msgid "Only %1$s registered %2$s users can comment."
+msgstr ""
+
+#: comments.php:49
+msgid "Comment"
+msgstr ""
+
+#: comments.php:49
+msgid "Your comment.."
+msgstr ""
+
+#: comments.php:57
+msgid "Post a Comment"
+msgstr ""
+
+#: footer.php:59 functions/register.php:10
+msgid "Footer Menu"
+msgstr ""
+
+#: maintenance.php:63
+msgid "Our website is temporarily under construction."
+msgstr ""
+
+#: maintenance.php:64
+msgid "See you in a short time!"
+msgstr ""
+
+#: searchform.php:6
+msgid "search here"
+msgstr ""
+
+#: template-contact.php:29
+msgid "Send us a message"
+msgstr ""
+
+#: template-contact.php:33
+msgid "Great Success:"
+msgstr ""
+
+#: template-contact.php:33
+msgid "Your meesage went through!"
+msgstr ""
+
+#: template-contact.php:44
+msgid "Name"
+msgstr ""
+
+#: template-contact.php:45 functions/filters.php:197
+msgid "Nickname"
+msgstr ""
+
+#: template-contact.php:49 template-contact.php:50 functions/filters.php:198
+msgid "E-mail"
+msgstr ""
+
+#: template-contact.php:54 template-contact.php:55 functions/filters.php:199
+msgid "Website"
+msgstr ""
+
+#: template-contact.php:58 template-contact.php:59
+msgid "Your message"
+msgstr ""
+
+#: template-contact.php:63
+msgid "Send Message"
+msgstr ""
+
+#: template-contact.php:68 includes/news-single.php:111
+msgid "Sorry, no posts matched your criteria."
+msgstr ""
+
+#: template-gallery-1.php:59
+msgid "All"
+msgstr ""
+
+#: template-gallery-1.php:120 includes/gallery-single-style-1.php:155
+#, php-format
+msgid "%s photo"
+msgstr ""
+
+#: template-gallery-1.php:151 includes/gallery-single-style-1.php:178
+msgid "No galleries were found"
+msgstr ""
+
+#: functions/ajax.php:188
+msgid "Sorry, your nonce did not verify."
+msgstr ""
+
+#: functions/ajax.php:450
+msgid "From"
+msgstr ""
+
+#: functions/ajax.php:450
+msgid "Contact Page"
+msgstr ""
+
+#: functions/ajax.php:463
+msgid "Message:"
+msgstr ""
+
+#: functions/ajax.php:465
+msgid "Name:"
+msgstr ""
+
+#: functions/ajax.php:466
+msgid "Url:"
+msgstr ""
+
+#: functions/ajax.php:467
+msgid "E-mail:"
+msgstr ""
+
+#: functions/ajax.php:468
+msgid "IP Address:"
+msgstr ""
+
+#: functions/class-different-animations.php:27
+msgid "No Effect"
+msgstr ""
+
+#: functions/class-different-animations.php:29
+msgid "None"
+msgstr ""
+
+#: functions/class-different-animations.php:33
+msgid "Attention Seekers"
+msgstr ""
+
+#: functions/class-different-animations.php:35
+msgid "bounce"
+msgstr ""
+
+#: functions/class-different-animations.php:36
+msgid "flash"
+msgstr ""
+
+#: functions/class-different-animations.php:37
+msgid "pulse"
+msgstr ""
+
+#: functions/class-different-animations.php:38
+msgid "rubberBand"
+msgstr ""
+
+#: functions/class-different-animations.php:39
+msgid "shake"
+msgstr ""
+
+#: functions/class-different-animations.php:40
+msgid "swing"
+msgstr ""
+
+#: functions/class-different-animations.php:41
+msgid "tada"
+msgstr ""
+
+#: functions/class-different-animations.php:42
+msgid "wobble"
+msgstr ""
+
+#: functions/class-different-animations.php:46
+msgid "Bouncing Entrances"
+msgstr ""
+
+#: functions/class-different-animations.php:48
+msgid "bounceIn"
+msgstr ""
+
+#: functions/class-different-animations.php:49
+msgid "bounceInDown"
+msgstr ""
+
+#: functions/class-different-animations.php:50
+msgid "bounceInLeft"
+msgstr ""
+
+#: functions/class-different-animations.php:51
+msgid "bounceInRight"
+msgstr ""
+
+#: functions/class-different-animations.php:52
+msgid "bounceInUp"
+msgstr ""
+
+#: functions/class-different-animations.php:68
+msgid "Fading Entrances"
+msgstr ""
+
+#: functions/class-different-animations.php:70
+msgid "fadeIn"
+msgstr ""
+
+#: functions/class-different-animations.php:71
+msgid "fadeInDown"
+msgstr ""
+
+#: functions/class-different-animations.php:72
+msgid "fadeInDownBig"
+msgstr ""
+
+#: functions/class-different-animations.php:73
+msgid "fadeInLeft"
+msgstr ""
+
+#: functions/class-different-animations.php:74
+msgid "fadeInLeftBig"
+msgstr ""
+
+#: functions/class-different-animations.php:75
+msgid "fadeInRight"
+msgstr ""
+
+#: functions/class-different-animations.php:76
+msgid "fadeInRightBig"
+msgstr ""
+
+#: functions/class-different-animations.php:77
+msgid "fadeInUp"
+msgstr ""
+
+#: functions/class-different-animations.php:78
+msgid "fadeInUpBig"
+msgstr ""
+
+#: functions/class-different-animations.php:98
+msgid "Flippers"
+msgstr ""
+
+#: functions/class-different-animations.php:100
+msgid "flip"
+msgstr ""
+
+#: functions/class-different-animations.php:101
+msgid "flipInX"
+msgstr ""
+
+#: functions/class-different-animations.php:102
+msgid "flipInY"
+msgstr ""
+
+#: functions/class-different-animations.php:110
+msgid "Lightspeed"
+msgstr ""
+
+#: functions/class-different-animations.php:112
+msgid "lightSpeedIn"
+msgstr ""
+
+#: functions/class-different-animations.php:119
+msgid "Rotating Entrances"
+msgstr ""
+
+#: functions/class-different-animations.php:121
+msgid "rotateIn"
+msgstr ""
+
+#: functions/class-different-animations.php:122
+msgid "rotateInDownLeft"
+msgstr ""
+
+#: functions/class-different-animations.php:123
+msgid "rotateInDownRight"
+msgstr ""
+
+#: functions/class-different-animations.php:124
+msgid "rotateInUpLeft"
+msgstr ""
+
+#: functions/class-different-animations.php:125
+msgid "rotateInUpRight"
+msgstr ""
+
+#: functions/class-different-animations.php:141
+msgid "Sliding Entrances"
+msgstr ""
+
+#: functions/class-different-animations.php:143
+msgid "slideInUp"
+msgstr ""
+
+#: functions/class-different-animations.php:144
+msgid "slideInDown"
+msgstr ""
+
+#: functions/class-different-animations.php:145
+msgid "slideInLeft"
+msgstr ""
+
+#: functions/class-different-animations.php:146
+msgid "slideInRight"
+msgstr ""
+
+#: functions/class-different-animations.php:161
+msgid "Zoom Entrances"
+msgstr ""
+
+#: functions/class-different-animations.php:163
+msgid "zoomIn"
+msgstr ""
+
+#: functions/class-different-animations.php:164
+msgid "zoomInDown"
+msgstr ""
+
+#: functions/class-different-animations.php:165
+msgid "zoomInLeft"
+msgstr ""
+
+#: functions/class-different-animations.php:166
+msgid "zoomInRight"
+msgstr ""
+
+#: functions/class-different-animations.php:167
+msgid "zoomInUp"
+msgstr ""
+
+#: functions/class-different-animations.php:183
+msgid "Specials"
+msgstr ""
+
+#: functions/class-different-animations.php:185
+msgid "hinge"
+msgstr ""
+
+#: functions/class-different-animations.php:186
+msgid "rollIn"
+msgstr ""
+
+#: functions/class-different-breadcrumbs.php:19
+msgid "Homepage"
+msgstr ""
+
+#: functions/class-different-breadcrumbs.php:139
+msgid "Page"
+msgstr ""
+
+#: functions/class-different-filters.php:26
+msgid " ago"
+msgstr ""
+
+#: functions/class-different-ratings.php:91
+msgid "Abysmal"
+msgstr ""
+
+#: functions/class-different-ratings.php:92
+msgid "Terrible"
+msgstr ""
+
+#: functions/class-different-ratings.php:93
+msgid "Bad"
+msgstr ""
+
+#: functions/class-different-ratings.php:94
+msgid "Poor"
+msgstr ""
+
+#: functions/class-different-ratings.php:95
+msgid "Mediocre"
+msgstr ""
+
+#: functions/class-different-ratings.php:96
+msgid "Fair"
+msgstr ""
+
+#: functions/class-different-ratings.php:97
+msgid "Good"
+msgstr ""
+
+#: functions/class-different-ratings.php:98
+msgid "Great"
+msgstr ""
+
+#: functions/class-different-ratings.php:99
+msgid "Superb"
+msgstr ""
+
+#: functions/class-different-ratings.php:100
+msgid "Essential"
+msgstr ""
+
+#: functions/class-different-ratings.php:104
+msgid "Please run the avarage_rating function first"
+msgstr ""
+
+#: functions/class-different-sidebars.php:41
+msgid "Default Main Sidebar"
+msgstr ""
+
+#: functions/class-different-sidebars.php:41
+msgid "The default page sidebar."
+msgstr ""
+
+#: functions/class-different-sidebars.php:43
+msgid "Footer 1st Column"
+msgstr ""
+
+#: functions/class-different-sidebars.php:43
+msgid "Footer first column widget area"
+msgstr ""
+
+#: functions/class-different-sidebars.php:44
+msgid "Footer 2nd Column"
+msgstr ""
+
+#: functions/class-different-sidebars.php:44
+msgid "Footer second column widget area"
+msgstr ""
+
+#: functions/class-different-sidebars.php:45
+msgid "Footer 3rd Column"
+msgstr ""
+
+#: functions/class-different-sidebars.php:45
+msgid "Footer third column widget area"
+msgstr ""
+
+#: functions/class-different-sidebars.php:49
+msgid "Woocommerce Page Sidebar"
+msgstr ""
+
+#: functions/class-different-sidebars.php:52
+msgid "bbPress Page Sidebar"
+msgstr ""
+
+#: functions/class-different-sidebars.php:55
+msgid "BuddyPress Page Sidebar"
+msgstr ""
+
+#: functions/class-different-updater.php:40
+#: functions/class-different-updater.php:110
+#: functions/class-different-updater.php:183
+msgid "Please enter your Envato Marketplace Username."
+msgstr ""
+
+#: functions/class-different-updater.php:44
+msgid "Please enter your Envato Marketplace API Key."
+msgstr ""
+
+#: functions/class-different-updater.php:47
+msgid "Please enter your purchase key."
+msgstr ""
+
+#: functions/class-different-updater.php:75
+#: functions/class-different-updater.php:130
+msgid "Theme Updates"
+msgstr ""
+
+#: functions/class-different-updater.php:75
+#: functions/class-different-updater.php:93
+msgid "1 Update"
+msgstr ""
+
+#: functions/class-different-updater.php:101
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: functions/class-different-updater.php:116
+msgid ""
+"Updating this theme will lose any customizations you have made. 'Cancel' to "
+"stop, 'OK' to update."
+msgstr ""
+
+#: functions/class-different-updater.php:139
+#, php-format
+msgid "There is a new version of the %1$s theme available."
+msgstr ""
+
+#: functions/class-different-updater.php:139
+#, php-format
+msgid "You have version %1$s installed. Update to version %2$s."
+msgstr ""
+
+#: functions/class-different-updater.php:139
+#: functions/class-different-updater.php:147
+#, php-format
+msgid "To update the theme automatically, click %1$shere%2$s"
+msgstr ""
+
+#: functions/class-different-updater.php:144
+msgid "Update Download and Instructions"
+msgstr ""
+
+#: functions/class-different-updater.php:145
+#, php-format
+msgid ""
+"%1$sPlease note:%2$s make a %1$sbackup%2$s of the Theme inside your "
+"WordPress installation folder %1$s%3$s%2$s. I also encourage you to make a "
+"full backup your site and database before performing an update."
+msgstr ""
+
+#: functions/class-different-updater.php:146
+msgid "Auto Update"
+msgstr ""
+
+#: functions/class-different-updater.php:148
+msgid "Manual Update"
+msgstr ""
+
+#: functions/class-different-updater.php:149
+#, php-format
+msgid ""
+"To get the latest update of the Theme, login to %1$sThemeForest%2$s, head "
+"over to your %3$sDownloads%4$s section and re-download the theme like you "
+"did when you bought it."
+msgstr ""
+
+#: functions/class-different-updater.php:150
+#, php-format
+msgid ""
+"Extract the contents of the zip file, look for the extracted theme folder, "
+"and after you have all the new files upload them using FTP to the %1$s%3$s"
+"%2$s folder overwriting the old ones (this is why it's important to backup "
+"any changes you've made to the theme files)."
+msgstr ""
+
+#: functions/class-different-updater.php:151
+msgid ""
+"If you didn't make any changes to the theme files, you are free to overwrite "
+"them with the new ones without the risk of losing theme settings, pages, "
+"posts, slider images, etc."
+msgstr ""
+
+#: functions/class-different-updater.php:152
+msgid ""
+"Now if you have modified files like CSS or some php files and you haven't "
+"kept track of your changes then you can use some 'diff' tools to compare the "
+"two versions' files and folders. That way you'd know exactly what files to "
+"update and where, line by line. Otherwise you'll loose your customizations."
+msgstr ""
+
+#: functions/class-different-updater.php:186
+msgid "Please enter items purchase code."
+msgstr ""
+
+#: functions/class-different-updater.php:271
+msgid "Your theme is up to date"
+msgstr ""
+
+#: functions/class-different-updater.php:275
+msgid ""
+"The purchase key you entered doesn't match with this theme. Please edit it "
+"in the theme management panel."
+msgstr ""
+
+#: functions/class-different-updater.php:367
+msgid "Please make sure, that you have entered a valid API key and user name"
+msgstr ""
+
+#: functions/class-different-updater.php:437
+msgid "You do not have sufficient permissions to update themes for this site."
+msgstr ""
+
+#: functions/class-different-updater.php:439
+msgid "Update Theme"
+msgstr ""
+
+#: functions/class-different-updater.php:463
+msgid "Downloading update from the Envato API&#8230;"
+msgstr ""
+
+#: functions/class-different-weather.php:135
+msgid "Moderate or heavy snow in area with thunder"
+msgstr ""
+
+#: functions/class-different-weather.php:139
+msgid "Patchy light snow in area with thunder"
+msgstr ""
+
+#: functions/class-different-weather.php:143
+msgid "Moderate or heavy snow showers"
+msgstr ""
+
+#: functions/class-different-weather.php:147
+msgid "Light snow showers"
+msgstr ""
+
+#: functions/class-different-weather.php:151
+msgid "Ice pellets"
+msgstr ""
+
+#: functions/class-different-weather.php:155
+msgid "Heavy snow"
+msgstr ""
+
+#: functions/class-different-weather.php:159
+msgid "Patchy heavy snow"
+msgstr ""
+
+#: functions/class-different-weather.php:163
+msgid "Moderate snow"
+msgstr ""
+
+#: functions/class-different-weather.php:167
+msgid "Patchy moderate snow"
+msgstr ""
+
+#: functions/class-different-weather.php:171
+msgid "Light snow"
+msgstr ""
+
+#: functions/class-different-weather.php:175
+msgid "Patchy light snow"
+msgstr ""
+
+#: functions/class-different-weather.php:179
+msgid "Moderate or heavy sleet"
+msgstr ""
+
+#: functions/class-different-weather.php:183
+msgid "Light sleet"
+msgstr ""
+
+#: functions/class-different-weather.php:187
+msgid "Heavy freezing drizzle"
+msgstr ""
+
+#: functions/class-different-weather.php:191
+msgid "Freezing drizzle"
+msgstr ""
+
+#: functions/class-different-weather.php:195
+msgid "Light drizzle"
+msgstr ""
+
+#: functions/class-different-weather.php:199
+msgid "Patchy light drizzle"
+msgstr ""
+
+#: functions/class-different-weather.php:203
+msgid "Blizzard"
+msgstr ""
+
+#: functions/class-different-weather.php:207
+msgid "Blowing snow"
+msgstr ""
+
+#: functions/class-different-weather.php:211
+msgid "Moderate or heavy rain in area with thunder"
+msgstr ""
+
+#: functions/class-different-weather.php:215
+msgid "Patchy light rain in area with thunder"
+msgstr ""
+
+#: functions/class-different-weather.php:219
+msgid "Thundery outbreaks in nearby"
+msgstr ""
+
+#: functions/class-different-weather.php:223
+msgid "Moderate or heavy showers of ice pellets"
+msgstr ""
+
+#: functions/class-different-weather.php:227
+msgid "Light showers of ice pellets"
+msgstr ""
+
+#: functions/class-different-weather.php:231
+msgid "Moderate or heavy sleet showers"
+msgstr ""
+
+#: functions/class-different-weather.php:235
+msgid "Light sleet showers"
+msgstr ""
+
+#: functions/class-different-weather.php:239
+msgid "Torrential rain shower"
+msgstr ""
+
+#: functions/class-different-weather.php:243
+msgid "Moderate or heavy rain shower"
+msgstr ""
+
+#: functions/class-different-weather.php:247
+msgid "Light rain shower"
+msgstr ""
+
+#: functions/class-different-weather.php:251
+msgid "Moderate or Heavy freezing rain"
+msgstr ""
+
+#: functions/class-different-weather.php:255
+msgid "Light freezing rain"
+msgstr ""
+
+#: functions/class-different-weather.php:259
+msgid "Heavy rain"
+msgstr ""
+
+#: functions/class-different-weather.php:263
+msgid "Heavy rain at times"
+msgstr ""
+
+#: functions/class-different-weather.php:267
+msgid "Moderate rain"
+msgstr ""
+
+#: functions/class-different-weather.php:271
+msgid "Moderate rain at times"
+msgstr ""
+
+#: functions/class-different-weather.php:275
+msgid "Light rain"
+msgstr ""
+
+#: functions/class-different-weather.php:279
+msgid "Patchy light rain"
+msgstr ""
+
+#: functions/class-different-weather.php:283
+msgid "Patchy freezing drizzle nearby"
+msgstr ""
+
+#: functions/class-different-weather.php:287
+msgid "Patchy snow nearby"
+msgstr ""
+
+#: functions/class-different-weather.php:291
+msgid "Patchy rain nearby"
+msgstr ""
+
+#: functions/class-different-weather.php:295
+msgid "Freezing fog"
+msgstr ""
+
+#: functions/class-different-weather.php:299
+msgid "Fog"
+msgstr ""
+
+#: functions/class-different-weather.php:303
+msgid "Mist"
+msgstr ""
+
+#: functions/class-different-weather.php:307
+msgid "Overcast"
+msgstr ""
+
+#: functions/class-different-weather.php:311
+msgid "Cloudy"
+msgstr ""
+
+#: functions/class-different-weather.php:315
+msgid "Partly Cloudy"
+msgstr ""
+
+#: functions/class-different-weather.php:319
+msgid "Sunny"
+msgstr ""
+
+#: functions/class-different-weather.php:323
+msgid "Patchy sleet nearby"
+msgstr ""
+
+#: functions/class-different-weather.php:327
+msgid "Can't get any data."
+msgstr ""
+
+#: functions/class-different-weather.php:340
+#: functions/class-different-weather.php:352
+msgid "Something went wrong with the connection!"
+msgstr ""
+
+#: functions/class-different-weather.php:355
+msgid "This option doesn't work on localhost!"
+msgstr ""
+
+#: functions/class-different-weather.php:359
+msgid "Please set up your API key!"
+msgstr ""
+
+#: functions/class-different-woocommerce.php:47
+#, php-format
+msgid "%d item"
+msgstr ""
+
+#: functions/custom-admin-menu.php:126
+#, php-format
+msgid "%s (Invalid)"
+msgstr ""
+
+#: functions/custom-admin-menu.php:130
+#, php-format
+msgid "%s (Pending)"
+msgstr ""
+
+#: functions/custom-admin-menu.php:154
+msgid "Move up"
+msgstr ""
+
+#: functions/custom-admin-menu.php:167
+msgid "Move down"
+msgstr ""
+
+#: functions/custom-admin-menu.php:169 functions/custom-admin-menu.php:171
+msgid "Edit Menu Item"
+msgstr ""
+
+#: functions/custom-admin-menu.php:180
+msgid "URL"
+msgstr ""
+
+#: functions/custom-admin-menu.php:187
+msgid "Navigation Label"
+msgstr ""
+
+#: functions/custom-admin-menu.php:193
+msgid "Title Attribute"
+msgstr ""
+
+#: functions/custom-admin-menu.php:200
+msgid "Open link in a new window/tab"
+msgstr ""
+
+#: functions/custom-admin-menu.php:205
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: functions/custom-admin-menu.php:211
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: functions/custom-admin-menu.php:217
+msgid "Description"
+msgstr ""
+
+#: functions/custom-admin-menu.php:219
+msgid ""
+"The description will be displayed in the menu if the current theme supports "
+"it."
+msgstr ""
+
+#: functions/custom-admin-menu.php:232
+msgid "Show The Color Line In Main Menu Parent Item (Only Pages/Categories)"
+msgstr ""
+
+#: functions/custom-admin-menu.php:238
+msgid "Main menu type ( only menu parent item )"
+msgstr ""
+
+#: functions/custom-admin-menu.php:240 functions/custom-admin-menu.php:253
+#: functions/uniqmag-menu.php:888 includes/theme-config.php:588
+#: includes/theme-config.php:944 includes/admin/sidebar.php:66
+msgid "Default"
+msgstr ""
+
+#: functions/custom-admin-menu.php:241
+msgid "Mega Menu With Widgets"
+msgstr ""
+
+#: functions/custom-admin-menu.php:247
+msgid "Sidebar for widget mega menu"
+msgstr ""
+
+#: functions/custom-admin-menu.php:282
+#, php-format
+msgid "Original: %s"
+msgstr ""
+
+#: functions/custom-admin-menu.php:295
+msgid "Remove"
+msgstr ""
+
+#: functions/custom-admin-menu.php:296
+msgid "Cancel"
+msgstr ""
+
+#: functions/drag-drop.php:13
+msgid "Homepage Blocks:"
+msgstr ""
+
+#: functions/drag-drop.php:36
+msgid "Latest,Popular or Category News"
+msgstr ""
+
+#: functions/drag-drop.php:39
+msgid ""
+"Latest news, category news or popular news post listing, with several layouts"
+msgstr ""
+
+#: functions/drag-drop.php:43
+msgid "Block Style:"
+msgstr ""
+
+#: functions/drag-drop.php:46
+msgid "Post List With First Large Image and Small on Right"
+msgstr ""
+
+#: functions/drag-drop.php:47
+msgid ""
+"Post List With First Large Image and Other Small ( Category in Top Corner )"
+msgstr ""
+
+#: functions/drag-drop.php:48
+msgid "Post List With First Large Image and Other Small ( Category ar Bottom )"
+msgstr ""
+
+#: functions/drag-drop.php:49
+msgid "Grid Block"
+msgstr ""
+
+#: functions/drag-drop.php:50
+msgid "Grid Block Style 2"
+msgstr ""
+
+#: functions/drag-drop.php:51
+msgid "Grid Block Style 3"
+msgstr ""
+
+#: functions/drag-drop.php:52
+msgid "Grid Block Style 4"
+msgstr ""
+
+#: functions/drag-drop.php:53
+msgid "Post List With Images on Left"
+msgstr ""
+
+#: functions/drag-drop.php:54
+msgid "Post List With Small Images on Left"
+msgstr ""
+
+#: functions/drag-drop.php:55
+msgid "Large Image in Background"
+msgstr ""
+
+#: functions/drag-drop.php:56
+msgid "Main Grid"
+msgstr ""
+
+#: functions/drag-drop.php:57
+msgid "Main Slider 1"
+msgstr ""
+
+#: functions/drag-drop.php:58
+msgid "Main Slider 2"
+msgstr ""
+
+#: functions/drag-drop.php:59
+msgid "Main Slider 3"
+msgstr ""
+
+#: functions/drag-drop.php:60
+msgid "Main Slider 4"
+msgstr ""
+
+#: functions/drag-drop.php:65 functions/drag-drop.php:174
+#: includes/widgets/widget-ad300x250.php:132
+#: includes/widgets/widget-uniqmag-comments.php:22
+#: includes/widgets/widget-uniqmag-gallery.php:23
+#: includes/widgets/widget-uniqmag-latest-posts.php:28
+#: includes/widgets/widget-uniqmag-popular-posts.php:27
+msgid "Title:"
+msgstr ""
+
+#: functions/drag-drop.php:66 functions/drag-drop.php:175
+msgid "Subtitle:"
+msgstr ""
+
+#: functions/drag-drop.php:67
+msgid "Count:"
+msgstr ""
+
+#: functions/drag-drop.php:70
+msgid "Block Type:"
+msgstr ""
+
+#: functions/drag-drop.php:73
+#: includes/widgets/widget-uniqmag-latest-posts.php:42
+#: includes/widgets/widget-uniqmag-popular-posts.php:41
+msgid "Latest News"
+msgstr ""
+
+#: functions/drag-drop.php:74
+msgid "Popular News"
+msgstr ""
+
+#: functions/drag-drop.php:82
+msgid "Filter by Categories"
+msgstr ""
+
+#: functions/drag-drop.php:85
+msgid ""
+"From which post should start the loop (for example 4 ), for default leave it "
+"empty, or add 0. (Offset):"
+msgstr ""
+
+#: functions/drag-drop.php:89 functions/drag-drop.php:179
+msgid "Title Color:"
+msgstr ""
+
+#: functions/drag-drop.php:169
+msgid "Title Block"
+msgstr ""
+
+#: functions/drag-drop.php:172
+msgid "Block Title"
+msgstr ""
+
+#: functions/drag-drop.php:186
+msgid "Text Block"
+msgstr ""
+
+#: functions/drag-drop.php:189
+msgid "Custom Text Block/Shortcodes Block"
+msgstr ""
+
+#: functions/drag-drop.php:191 includes/admin/general.php:832
+msgid "Text:"
+msgstr ""
+
+#: functions/drag-drop.php:195
+msgid "HTML Code"
+msgstr ""
+
+#: functions/drag-drop.php:198
+msgid "Custom HTML/Shortcodes Block"
+msgstr ""
+
+#: functions/drag-drop.php:200 functions/drag-drop.php:209
+msgid "Code/Text:"
+msgstr ""
+
+#: functions/drag-drop.php:204
+msgid "Banner Block"
+msgstr ""
+
+#: functions/drag-drop.php:207
+msgid "Supports HTML,CSS, Javascript and Shortcodes."
+msgstr ""
+
+#: functions/filters.php:71
+msgid "More"
+msgstr ""
+
+#: functions/filters.php:179
+msgid "Twitter Account Url"
+msgstr ""
+
+#: functions/filters.php:180
+msgid "Facebook Account Url"
+msgstr ""
+
+#: functions/filters.php:181
+msgid "Google+ Account Url"
+msgstr ""
+
+#: functions/filters.php:182
+msgid "Youtube Account Url"
+msgstr ""
+
+#: functions/filters.php:183
+msgid "Dribbble Account Url"
+msgstr ""
+
+#: functions/filters.php:212
+msgid "Your data will be safe!"
+msgstr ""
+
+#: functions/filters.php:213
+msgid ""
+"Your e-mail address will not be published. Also other data will not be "
+"shared with third person. Required fields marked as "
+msgstr ""
+
+#: functions/nav.php:95
+msgid "Previous"
+msgstr ""
+
+#: functions/other.php:64
+msgid "Categoy Color"
+msgstr ""
+
+#: functions/other.php:76
+msgid "Category Style "
+msgstr ""
+
+#: functions/other.php:82
+msgid "Right"
+msgstr ""
+
+#: functions/other.php:82
+msgid "Left"
+msgstr ""
+
+#: functions/other.php:82
+msgid "Main Sidebar Position "
+msgstr ""
+
+#: functions/other.php:85
+msgid "Main Sidebar"
+msgstr ""
+
+#: functions/other.php:100
+msgid "Category Icon "
+msgstr ""
+
+#: functions/other.php:110 includes/widgets/widget-uniqmag-latest-posts.php:51
+#: includes/widgets/widget-uniqmag-popular-posts.php:50
+msgid "Show"
+msgstr ""
+
+#: functions/other.php:110 includes/widgets/widget-uniqmag-latest-posts.php:52
+#: includes/widgets/widget-uniqmag-popular-posts.php:51
+msgid "Hide"
+msgstr ""
+
+#: functions/other.php:110 includes/admin/slider.php:18
+msgid "Breaking News Slider"
+msgstr ""
+
+#: functions/other.php:624 functions/other.php:684
+msgid "Delete image"
+msgstr ""
+
+#: functions/other.php:624 functions/other.php:684
+#: includes/theme-config.php:1301 includes/theme-config.php:2091
+msgid "Delete"
+msgstr ""
+
+#: functions/other.php:635
+msgid "Add images"
+msgstr ""
+
+#: functions/other.php:661
+msgid "Add Images to Product Gallery"
+msgstr ""
+
+#: functions/other.php:663
+msgid "Add to gallery"
+msgstr ""
+
+#: functions/other.php:1040
+msgid "Search Results for"
+msgstr ""
+
+#: functions/other.php:1048
+msgid "Posts From"
+msgstr ""
+
+#: functions/other.php:1051
+msgid "Tag"
+msgstr ""
+
+#: functions/other.php:1061
+msgid "Archive"
+msgstr ""
+
+#: functions/other.php:1127
+msgid "view"
+msgstr ""
+
+#: functions/other.php:1129
+msgid "views"
+msgstr ""
+
+#: functions/other.php:1169
+msgid "<strong>0</strong> comments"
+msgstr ""
+
+#: functions/other.php:1171
+msgid " comments"
+msgstr ""
+
+#: functions/other.php:1173
+msgid "<strong>1</strong> comment"
+msgstr ""
+
+#: functions/other.php:1461
+msgid ""
+"This content is password protected. To view it please enter your password "
+"below:"
+msgstr ""
+
+#: functions/other.php:1462
+msgid "Password:"
+msgstr ""
+
+#: functions/other.php:1464
+msgid "Submit"
+msgstr ""
+
+#: functions/other.php:1595
+#, php-format
+msgid " %1$s, at %2$s"
+msgstr ""
+
+#: functions/other.php:1601
+msgid "Reply"
+msgstr ""
+
+#: functions/register.php:8 includes/top.php:62
+msgid "Top Menu"
+msgstr ""
+
+#: functions/register.php:9 includes/top.php:150
+msgid "Main Menu"
+msgstr ""
+
+#: functions/uniqmag-menu.php:13
+msgid "Settings"
+msgstr ""
+
+#: functions/uniqmag-menu.php:26 includes/admin/general.php:18
+msgid "General"
+msgstr ""
+
+#: functions/uniqmag-menu.php:35
+msgid "Post/Page Settings"
+msgstr ""
+
+#: functions/uniqmag-menu.php:43 functions/uniqmag-menu.php:886
+#: includes/theme-config.php:586 includes/theme-config.php:942
+#: includes/admin/sidebar.php:18
+msgid "Sidebar"
+msgstr ""
+
+#: functions/uniqmag-menu.php:69
+msgid "Show Image In Single Post / News Page"
+msgstr ""
+
+#: functions/uniqmag-menu.php:77 functions/uniqmag-menu.php:169
+#: functions/uniqmag-menu.php:200 functions/uniqmag-menu.php:254
+#: functions/uniqmag-menu.php:282 functions/uniqmag-menu.php:309
+#: functions/uniqmag-menu.php:336 functions/uniqmag-menu.php:364
+#: functions/uniqmag-menu.php:390 functions/uniqmag-menu.php:416
+#: functions/uniqmag-menu.php:442 functions/uniqmag-menu.php:499
+#: functions/uniqmag-menu.php:705 functions/uniqmag-menu.php:722
+#: includes/theme-config.php:2462 includes/admin/general.php:395
+#: includes/admin/general.php:441 includes/admin/general.php:487
+#: includes/admin/general.php:509 includes/admin/general.php:533
+#: includes/admin/general.php:557 includes/admin/general.php:580
+#: includes/admin/general.php:628 includes/admin/general.php:651
+#: includes/admin/general.php:678 includes/admin/general.php:702
+#: includes/admin/general.php:726
+msgid "Show:"
+msgstr ""
+
+#: functions/uniqmag-menu.php:78 functions/uniqmag-menu.php:170
+#: functions/uniqmag-menu.php:201 functions/uniqmag-menu.php:255
+#: functions/uniqmag-menu.php:283 functions/uniqmag-menu.php:310
+#: functions/uniqmag-menu.php:337 functions/uniqmag-menu.php:365
+#: functions/uniqmag-menu.php:391 functions/uniqmag-menu.php:417
+#: functions/uniqmag-menu.php:443 functions/uniqmag-menu.php:500
+#: includes/theme-config.php:2463 includes/admin/general.php:396
+#: includes/admin/general.php:442 includes/admin/general.php:488
+#: includes/admin/general.php:510 includes/admin/general.php:534
+#: includes/admin/general.php:558 includes/admin/general.php:581
+#: includes/admin/general.php:629 includes/admin/general.php:652
+#: includes/admin/general.php:679 includes/admin/general.php:703
+#: includes/admin/general.php:727
+msgid "Hide:"
+msgstr ""
+
+#: functions/uniqmag-menu.php:101 includes/admin/general.php:410
+msgid "Post/Page Image PopUp View"
+msgstr ""
+
+#: functions/uniqmag-menu.php:109 includes/admin/general.php:417
+msgid "Yes:"
+msgstr ""
+
+#: functions/uniqmag-menu.php:110 includes/admin/general.php:418
+msgid "No:"
+msgstr ""
+
+#: functions/uniqmag-menu.php:161
+msgid "Show Title In Single Post/Page"
+msgstr ""
+
+#: functions/uniqmag-menu.php:193 includes/admin/general.php:480
+msgid "Show Post Controls"
+msgstr ""
+
+#: functions/uniqmag-menu.php:247
+msgid "Post Author"
+msgstr ""
+
+#: functions/uniqmag-menu.php:275
+msgid "Post Date"
+msgstr ""
+
+#: functions/uniqmag-menu.php:302 includes/admin/general.php:671
+msgid "Show Share Buttons"
+msgstr ""
+
+#: functions/uniqmag-menu.php:329
+msgid "Show Post Comments Count"
+msgstr ""
+
+#: functions/uniqmag-menu.php:357
+msgid "Post Categories"
+msgstr ""
+
+#: functions/uniqmag-menu.php:383
+msgid "Post Icon ( Except Grid View Style 4 )"
+msgstr ""
+
+#: functions/uniqmag-menu.php:409
+msgid "Post Tags"
+msgstr ""
+
+#: functions/uniqmag-menu.php:435
+msgid "\"Similar News\" Block In Post"
+msgstr ""
+
+#: functions/uniqmag-menu.php:491
+msgid "\"Similar News\" Block In Gallery"
+msgstr ""
+
+#: functions/uniqmag-menu.php:558
+msgid "Blog Style"
+msgstr ""
+
+#: functions/uniqmag-menu.php:566
+msgid "Default Grid View (without excerpt):"
+msgstr ""
+
+#: functions/uniqmag-menu.php:567
+msgid "Default Grid View (with excerpt):"
+msgstr ""
+
+#: functions/uniqmag-menu.php:568
+msgid "List With Small Images:"
+msgstr ""
+
+#: functions/uniqmag-menu.php:569
+msgid "Small Grid View:"
+msgstr ""
+
+#: functions/uniqmag-menu.php:570
+msgid "Grid View Style 3:"
+msgstr ""
+
+#: functions/uniqmag-menu.php:571
+msgid "Grid View Style 4:"
+msgstr ""
+
+#: functions/uniqmag-menu.php:592
+msgid "Featured Image Credits"
+msgstr ""
+
+#: functions/uniqmag-menu.php:598
+msgid "Credits Title"
+msgstr ""
+
+#: functions/uniqmag-menu.php:605
+msgid "Credits Url"
+msgstr ""
+
+#: functions/uniqmag-menu.php:698
+msgid "Show This Post In Breaking News Slider?"
+msgstr ""
+
+#: functions/uniqmag-menu.php:715
+msgid "Show This Post In Main Slider?"
+msgstr ""
+
+#: functions/uniqmag-menu.php:742
+msgid "Video Embed Code"
+msgstr ""
+
+#: functions/uniqmag-menu.php:747
+msgid "Vimeo, Youtube Embed Code:"
+msgstr ""
+
+#: functions/uniqmag-menu.php:761
+msgid "SoundCloud Embed Code"
+msgstr ""
+
+#: functions/uniqmag-menu.php:766
+msgid "SoundCloud Embed Code:"
+msgstr ""
+
+#: functions/uniqmag-menu.php:781
+msgid "Review Settings"
+msgstr ""
+
+#: functions/uniqmag-menu.php:788
+msgid "Ratings"
+msgstr ""
+
+#: functions/uniqmag-menu.php:790
+msgid ""
+"Enter the ratings like this - Graphics:8; Gameplay:4,5; Sound:9; Storyline:4"
+msgstr ""
+
+#: functions/uniqmag-menu.php:790
+msgid "The max rating value you can enter is - "
+msgstr ""
+
+#: functions/uniqmag-menu.php:795 includes/single/post-ratings.php:26
+msgid "Summary"
+msgstr ""
+
+#: functions/uniqmag-menu.php:810
+msgid "Contact Page Email"
+msgstr ""
+
+#: functions/uniqmag-menu.php:815
+msgid "Email:"
+msgstr ""
+
+#: functions/uniqmag-menu.php:830
+msgid "Contact Page Google Map"
+msgstr ""
+
+#: functions/uniqmag-menu.php:835
+msgid "Embed Code:"
+msgstr ""
+
+#: functions/uniqmag-menu.php:865
+msgid "Main Sidebar Side"
+msgstr ""
+
+#: functions/uniqmag-menu.php:872 includes/admin/sidebar.php:44
+msgid "Right:"
+msgstr ""
+
+#: functions/uniqmag-menu.php:873 includes/admin/sidebar.php:43
+msgid "Left:"
+msgstr ""
+
+#: functions/uniqmag-menu.php:881
+msgid "Main Sidebar Name"
+msgstr ""
+
+#: functions/uniqmag-menu.php:889
+msgid "Off"
+msgstr ""
+
+#: functions/uniqmag-menu.php:961
+msgid "Post Custom Settings"
+msgstr ""
+
+#: functions/uniqmag-menu.php:1053
+msgid "Security check"
+msgstr ""
+
+#: functions/uniqmag-menu.php:1109
+msgid "Main Slider Image"
+msgstr ""
+
+#: functions/uniqmag-menu.php:1109
+msgid "Image:"
+msgstr ""
+
+#: functions/uniqmag-menu.php:1113 functions/uniqmag-menu.php:1114
+msgid "Gallery Images"
+msgstr ""
+
+#: functions/uniqmag-menu.php:1118
+msgid "Portfolio Images"
+msgstr ""
+
+#: functions/uniqmag-menu.php:1126
+msgid "Homepage Builder"
+msgstr ""
+
+#: includes/banners.php:20 includes/banners.php:29 includes/banners.php:40
+#: includes/theme-config.php:683 includes/theme-config.php:748
+#: includes/theme-config.php:808 includes/theme-config.php:887
+#: includes/theme-config.php:1008
+msgid "Close"
+msgstr ""
+
+#: includes/news-single.php:78 includes/page-single.php:18
+msgid "Pages:"
+msgstr ""
+
+#: includes/news-single.php:83 includes/page-single.php:23
+msgid "Next page"
+msgstr ""
+
+#: includes/news-single.php:84 includes/page-single.php:24
+msgid "Previous page"
+msgstr ""
+
+#: includes/page-single.php:33
+msgid "Sorry, no page matched your criteria."
+msgstr ""
+
+#: includes/theme-config.php:389
+msgid "You didn't create a slider yet."
+msgstr ""
+
+#: includes/theme-config.php:601
+msgid "Background Color:"
+msgstr ""
+
+#: includes/theme-config.php:603
+msgid "Gray"
+msgstr ""
+
+#: includes/theme-config.php:604
+msgid "White"
+msgstr ""
+
+#: includes/theme-config.php:620
+msgid "Columns & Layouts"
+msgstr ""
+
+#: includes/theme-config.php:621
+msgid "Block Added.."
+msgstr ""
+
+#: includes/theme-config.php:623
+msgid "Layouts"
+msgstr ""
+
+#: includes/theme-config.php:628 includes/theme-config.php:633
+#: includes/theme-config.php:641 includes/theme-config.php:647
+#: includes/theme-config.php:656 includes/theme-config.php:1070
+#: includes/theme-config.php:1090
+msgid "Click to add block layout"
+msgstr ""
+
+#: includes/theme-config.php:662
+msgid "Columns"
+msgstr ""
+
+#: includes/theme-config.php:674 includes/theme-config.php:792
+msgid "Background Settings"
+msgstr ""
+
+#: includes/theme-config.php:680 includes/theme-config.php:682
+#: includes/theme-config.php:805 includes/theme-config.php:807
+msgid "Column Background Settings"
+msgstr ""
+
+#: includes/theme-config.php:691 includes/theme-config.php:754
+#: includes/theme-config.php:848 includes/theme-config.php:923
+#: includes/theme-config.php:1044 includes/theme-config.php:1114
+msgid "Save"
+msgstr ""
+
+#: includes/theme-config.php:691 includes/theme-config.php:754
+#: includes/theme-config.php:848 includes/theme-config.php:923
+#: includes/theme-config.php:1044 includes/theme-config.php:1114
+msgid "Saving.."
+msgstr ""
+
+#: includes/theme-config.php:733 includes/theme-config.php:734
+#: includes/theme-config.php:875 includes/theme-config.php:996
+#: includes/theme-config.php:2091
+msgid "Edit"
+msgstr ""
+
+#: includes/theme-config.php:766
+msgid ""
+"To add content to your Hompage, drag &amp; drop blocks from Available to "
+"Active area "
+msgstr ""
+
+#: includes/theme-config.php:769
+msgid "Active homepage blocks"
+msgstr ""
+
+#: includes/theme-config.php:1089
+msgid "Drag block here to delete it"
+msgstr ""
+
+#: includes/theme-config.php:1094
+msgid "Pagebuilder Import/Export"
+msgstr ""
+
+#: includes/theme-config.php:1100 includes/admin/general.php:143
+msgid "Export Settings"
+msgstr ""
+
+#: includes/theme-config.php:1106 includes/admin/general.php:150
+msgid "Import Settings"
+msgstr ""
+
+#: includes/theme-config.php:1191
+msgid "Export"
+msgstr ""
+
+#: includes/theme-config.php:1236
+msgid "Import"
+msgstr ""
+
+#: includes/theme-config.php:1295
+msgid "Choose File"
+msgstr ""
+
+#: includes/theme-config.php:1308 includes/theme-config.php:1310
+msgid "Previews"
+msgstr ""
+
+#: includes/theme-config.php:1736
+msgid "Add Media"
+msgstr ""
+
+#: includes/theme-config.php:1742
+msgid "Sample:"
+msgstr ""
+
+#: includes/theme-config.php:2038
+msgid ""
+"This options is disabled, to enable it you must set this option in "
+"<strong>theme management panel</strong> to custom."
+msgstr ""
+
+#: includes/theme-config.php:2091
+msgid "Sidebar name:"
+msgstr ""
+
+#: includes/theme-config.php:2149
+msgid "Add/Save"
+msgstr ""
+
+#: includes/theme-config.php:2149
+msgid "Adding..."
+msgstr ""
+
+#: includes/theme-config.php:2204
+msgid "Woocommerce"
+msgstr ""
+
+#: includes/theme-config.php:2207
+msgid "bbPRess"
+msgstr ""
+
+#: includes/theme-config.php:2210
+msgid "BudyPress"
+msgstr ""
+
+#: includes/theme-config.php:2429
+msgid "Gallery Settings"
+msgstr ""
+
+#: includes/theme-config.php:2435
+msgid "Items per gallery page:"
+msgstr ""
+
+#: includes/theme-config.php:2454
+msgid "Show \"Similar Posts\" In Single Galley"
+msgstr ""
+
+#: includes/theme-config.php:2464
+msgid "Custom For Each Gallery Page:"
+msgstr ""
+
+#: includes/theme-config.php:2477 includes/admin/general.php:340
+#: includes/admin/general.php:739 includes/admin/general.php:843
+#: includes/admin/slider.php:87 includes/admin/style.php:125
+#: includes/admin/style.php:276 includes/admin/style.php:385
+msgid "Save Changes"
+msgstr ""
+
+#: includes/theme-config.php:2545
+msgid "Saving..."
+msgstr ""
+
+#: includes/admin/general.php:19
+msgid "Blog"
+msgstr ""
+
+#: includes/admin/general.php:20
+msgid "Contact/Footer"
+msgstr ""
+
+#: includes/admin/general.php:21
+msgid "Banners"
+msgstr ""
+
+#: includes/admin/general.php:62
+msgid "Load dynamic js/css files directly in header"
+msgstr ""
+
+#: includes/admin/general.php:69
+msgid ""
+"Load in Header (this improves your page speed on some servers, but it "
+"depends on server configuration):"
+msgstr ""
+
+#: includes/admin/general.php:76
+msgid "Allow to Output JavaScript and All HTML tags in Dynamic Data in Theme:"
+msgstr ""
+
+#: includes/admin/general.php:91
+msgid "Add logo image"
+msgstr ""
+
+#: includes/admin/general.php:96
+msgid "Add Header Logo Image"
+msgstr ""
+
+#: includes/admin/general.php:97
+msgid "Suggested image size is 200x50px"
+msgstr ""
+
+#: includes/admin/general.php:138
+msgid "Export/Import Theme Settings"
+msgstr ""
+
+#: includes/admin/general.php:165 includes/admin/general.php:362
+msgid "Unit Settings"
+msgstr ""
+
+#: includes/admin/general.php:171
+msgid "Show Search In Main Menu:"
+msgstr ""
+
+#: includes/admin/general.php:179
+msgid "Hide Duplicate Posts On Homepage:"
+msgstr ""
+
+#: includes/admin/general.php:297
+msgid "Show Breadcrumb"
+msgstr ""
+
+#: includes/admin/general.php:303
+msgid "Show Breadcrumb:"
+msgstr ""
+
+#: includes/admin/general.php:317
+msgid "Maintenance Mode"
+msgstr ""
+
+#: includes/admin/general.php:323
+msgid "Enable Maintenance Mode:"
+msgstr ""
+
+#: includes/admin/general.php:329
+msgid "Maintenance Mode End:"
+msgstr ""
+
+#: includes/admin/general.php:368
+msgid "Show thumbnails in blog post list:"
+msgstr ""
+
+#: includes/admin/general.php:376
+msgid "Show placeholder thumbnail, when no thumbnail is available:"
+msgstr ""
+
+#: includes/admin/general.php:388
+msgid "Show thumbnail in open post/page"
+msgstr ""
+
+#: includes/admin/general.php:397 includes/admin/general.php:419
+#: includes/admin/general.php:443 includes/admin/general.php:489
+#: includes/admin/general.php:511 includes/admin/general.php:535
+#: includes/admin/general.php:559 includes/admin/general.php:582
+#: includes/admin/general.php:630 includes/admin/general.php:653
+#: includes/admin/general.php:704 includes/admin/general.php:728
+msgid "Custom For Each Post:"
+msgstr ""
+
+#: includes/admin/general.php:434
+msgid "Show Post Title In Single Post/Page"
+msgstr ""
+
+#: includes/admin/general.php:502
+msgid "Show Post Author"
+msgstr ""
+
+#: includes/admin/general.php:526
+msgid "Show Post Date"
+msgstr ""
+
+#: includes/admin/general.php:550
+msgid "Show Categories"
+msgstr ""
+
+#: includes/admin/general.php:573
+msgid "Show Post Icon ( Except Grid View Style 4 )"
+msgstr ""
+
+#: includes/admin/general.php:621
+msgid "Show \"About Author\" In Single Post"
+msgstr ""
+
+#: includes/admin/general.php:644
+msgid "Show \"Similar News\" In Single Post"
+msgstr ""
+
+#: includes/admin/general.php:680
+msgid "Custom For Each Post/Page:"
+msgstr ""
+
+#: includes/admin/general.php:695
+msgid "Show Post Comment Count"
+msgstr ""
+
+#: includes/admin/general.php:719
+msgid "Show Post Icons"
+msgstr ""
+
+#: includes/admin/general.php:808
+msgid "Twitter Account"
+msgstr ""
+
+#: includes/admin/general.php:813
+msgid "Twitter Account Name:"
+msgstr ""
+
+#: includes/admin/general.php:827
+msgid "Footer CopyRight"
+msgstr ""
+
+#: includes/admin/general.php:888 includes/admin/general.php:914
+#: includes/admin/general.php:941
+msgid "Header Banner"
+msgstr ""
+
+#: includes/admin/general.php:897 includes/admin/general.php:923
+#: includes/admin/general.php:950
+msgid "Enable Banner"
+msgstr ""
+
+#: includes/admin/general.php:961 includes/admin/general.php:971
+#: includes/admin/general.php:981
+msgid "Banner HTML Code"
+msgstr ""
+
+#: includes/admin/general.php:1034
+msgid "Select Pop Up Banner Type"
+msgstr ""
+
+#: includes/admin/general.php:1208
+msgid "Enable Background Overlay:"
+msgstr ""
+
+#: includes/admin/general.php:1234
+msgid "Gallery"
+msgstr ""
+
+#: includes/admin/sidebar.php:36
+msgid "Default Main Sidebar Position"
+msgstr ""
+
+#: includes/admin/sidebar.php:45
+msgid "Custom For Each Page:"
+msgstr ""
+
+#: includes/admin/sidebar.php:58
+msgid "Change Default Sidebar"
+msgstr ""
+
+#: includes/admin/sidebar.php:64
+msgid "Page/Post Default sidebar"
+msgstr ""
+
+#: includes/admin/sidebar.php:80
+msgid "Make Sidebars Sticky"
+msgstr ""
+
+#: includes/admin/sidebar.php:86
+msgid "Sticky:"
+msgstr ""
+
+#: includes/admin/sidebar.php:124
+msgid "Add Sidebar"
+msgstr ""
+
+#: includes/admin/sidebar.php:129
+msgid "Add New Sidebar:"
+msgstr ""
+
+#: includes/admin/sidebar.php:143
+msgid "Sidebar Sequence"
+msgstr ""
+
+#: includes/admin/sidebar.php:144
+msgid "To sort the slides just drag and drop them!"
+msgstr ""
+
+#: includes/admin/sidebar.php:149
+msgid "Order Sidebars"
+msgstr ""
+
+#: includes/admin/slider.php:6
+msgid "Slider Settings"
+msgstr ""
+
+#: includes/admin/slider.php:39
+msgid "Show Breaking News Slider"
+msgstr ""
+
+#: includes/admin/slider.php:45
+msgid "Show In Posts:"
+msgstr ""
+
+#: includes/admin/slider.php:52
+msgid "Show In Pages:"
+msgstr ""
+
+#: includes/admin/slider.php:59
+msgid "Show In Blog:"
+msgstr ""
+
+#: includes/admin/slider.php:66
+msgid "Show In Homepage:"
+msgstr ""
+
+#: includes/admin/slider.php:72
+msgid "Breaking News Slider Categories"
+msgstr ""
+
+#: includes/admin/slider.php:76
+msgid "Set Categories"
+msgstr ""
+
+#: includes/admin/style.php:6
+msgid "Style Settings"
+msgstr ""
+
+#: includes/admin/style.php:18
+msgid "Font Style"
+msgstr ""
+
+#: includes/admin/style.php:19
+msgid "Page Colors/Style"
+msgstr ""
+
+#: includes/admin/style.php:20
+msgid "Layout"
+msgstr ""
+
+#: includes/admin/style.php:38
+msgid "Fonts"
+msgstr ""
+
+#: includes/admin/style.php:43
+msgid "Body Font:"
+msgstr ""
+
+#: includes/admin/style.php:46 includes/admin/style.php:55
+msgid ""
+"Font previews You Can find here: <a href='http://www.google.com/webfonts' "
+"target='_blank'>Google Fonts</a>"
+msgstr ""
+
+#: includes/admin/style.php:52
+msgid "Title Fonts:"
+msgstr ""
+
+#: includes/admin/style.php:73
+msgid "Font Character Sets"
+msgstr ""
+
+#: includes/admin/style.php:79
+msgid "Cyrillic Extended (cyrillic-ext):"
+msgstr ""
+
+#: includes/admin/style.php:86
+msgid "Cyrillic (cyrillic):"
+msgstr ""
+
+#: includes/admin/style.php:93
+msgid "Greek Extended (greek-ext):"
+msgstr ""
+
+#: includes/admin/style.php:100
+msgid "Greek (greek):"
+msgstr ""
+
+#: includes/admin/style.php:107
+msgid "Vietnamese (vietnamese):"
+msgstr ""
+
+#: includes/admin/style.php:114
+msgid "Latin Extended (latin-ext):"
+msgstr ""
+
+#: includes/admin/style.php:146
+msgid "Default Category/News page Color"
+msgstr ""
+
+#: includes/admin/style.php:152 includes/admin/style.php:196
+msgid "Color:"
+msgstr ""
+
+#: includes/admin/style.php:165
+msgid "Colors"
+msgstr ""
+
+#: includes/admin/style.php:171
+msgid "Page Color Scheme:"
+msgstr ""
+
+#: includes/admin/style.php:187
+msgid "Body Backgrounds (only boxed view)"
+msgstr ""
+
+#: includes/admin/style.php:194
+msgid "Pattern:"
+msgstr ""
+
+#: includes/admin/style.php:195
+msgid "Custom Image:"
+msgstr ""
+
+#: includes/admin/style.php:203
+msgid "Patterns "
+msgstr ""
+
+#: includes/admin/style.php:206
+msgid "Texture 1"
+msgstr ""
+
+#: includes/admin/style.php:207
+msgid "Texture 2"
+msgstr ""
+
+#: includes/admin/style.php:208
+msgid "Texture 3"
+msgstr ""
+
+#: includes/admin/style.php:209
+msgid "Texture 4"
+msgstr ""
+
+#: includes/admin/style.php:210
+msgid "Texture 5"
+msgstr ""
+
+#: includes/admin/style.php:211
+msgid "Texture 6"
+msgstr ""
+
+#: includes/admin/style.php:212
+msgid "Texture 7"
+msgstr ""
+
+#: includes/admin/style.php:213
+msgid "Texture 8"
+msgstr ""
+
+#: includes/admin/style.php:214
+msgid "Texture 9"
+msgstr ""
+
+#: includes/admin/style.php:223
+msgid "Body Background Color:"
+msgstr ""
+
+#: includes/admin/style.php:233
+msgid "Body Background Image:"
+msgstr ""
+
+#: includes/admin/style.php:242
+msgid "Background Image Url:"
+msgstr ""
+
+#: includes/admin/style.php:250
+msgid "Image Repeat"
+msgstr ""
+
+#: includes/admin/style.php:259
+msgid "Repeat X:"
+msgstr ""
+
+#: includes/admin/style.php:260
+msgid "Repeat Y:"
+msgstr ""
+
+#: includes/admin/style.php:261
+msgid "Repeat X and Y:"
+msgstr ""
+
+#: includes/admin/style.php:262
+msgid "Off:"
+msgstr ""
+
+#: includes/admin/style.php:339
+msgid "Header Style"
+msgstr ""
+
+#: includes/admin/style.php:365
+msgid "Page Layout"
+msgstr ""
+
+#: includes/admin/functions/default-values.php:179
+msgid "Install Required Plugins"
+msgstr ""
+
+#: includes/admin/functions/default-values.php:180
+msgid "Install Plugins"
+msgstr ""
+
+#: includes/admin/functions/default-values.php:181
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: includes/admin/functions/default-values.php:182
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: includes/admin/functions/default-values.php:193
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: includes/admin/functions/default-values.php:194
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: includes/admin/functions/default-values.php:195
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: includes/home-blocks/latest-news-1.php:99
+#: includes/home-blocks/latest-news-1.php:100
+#: includes/home-blocks/latest-news-10.php:83
+#: includes/home-blocks/latest-news-10.php:84
+#: includes/home-blocks/latest-news-14.php:84
+#: includes/home-blocks/latest-news-14.php:85
+#: includes/home-blocks/latest-news-2.php:100
+#: includes/home-blocks/latest-news-2.php:101
+#: includes/home-blocks/latest-news-4.php:93
+#: includes/home-blocks/latest-news-4.php:94
+#: includes/home-blocks/latest-news-6.php:96
+#: includes/home-blocks/latest-news-6.php:97
+#: includes/home-blocks/latest-news-9.php:90
+#: includes/home-blocks/latest-news-9.php:91 includes/loop/post.php:160
+#: includes/loop/post.php:161 includes/loop/post.php:231
+#: includes/loop/post.php:232 includes/loop/post.php:405
+#: includes/loop/post.php:406 includes/single/post-related.php:105
+#: includes/single/post-related.php:106
+#: includes/widgets/widget-uniqmag-latest-posts.php:179
+#: includes/widgets/widget-uniqmag-latest-posts.php:180
+#: includes/widgets/widget-uniqmag-popular-posts.php:184
+#: includes/widgets/widget-uniqmag-popular-posts.php:185
+#, php-format
+msgid "Rated %1$s out of %2$s"
+msgstr ""
+
+#: includes/home-blocks/latest-news-12.php:94
+#: includes/home-blocks/latest-news-13.php:94
+#: includes/home-blocks/latest-news-14.php:96
+#: includes/home-blocks/latest-news-15.php:94
+#: includes/home-blocks/latest-news-8.php:90
+msgid ""
+"Please be sure that you have selected main slider posts, you can do it by "
+"adding/editing a post that you want to see in the slider."
+msgstr ""
+
+#: includes/home-blocks/latest-news-4.php:108 includes/loop/post.php:246
+msgid "Read more"
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:1740
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: includes/loop/no-post.php:17
+msgid "No Articles Found"
+msgstr ""
+
+#: includes/loop/no-post.php:18
+#, php-format
+msgid ""
+"Sorry, there are no articles here ! %1$sYou can %2$scontact us%3$s to "
+"resolve this problem !"
+msgstr ""
+
+#: includes/loop/no-post.php:19
+#, php-format
+msgid "Or You can still %1$sgo back to Homepage%2$s!"
+msgstr ""
+
+#: includes/single/image.php:33
+msgid "Photography"
+msgstr ""
+
+#: includes/single/post-nav.php:16
+msgid "Prev"
+msgstr ""
+
+#: includes/single/post-nav.php:22
+msgid "Next"
+msgstr ""
+
+#: includes/single/post-ratings.php:14
+msgid "Review"
+msgstr ""
+
+#: includes/single/post-related.php:38
+msgid "Related articles"
+msgstr ""
+
+#: includes/single/post-related.php:124
+msgid "Sorry, no posts were found."
+msgstr ""
+
+#: includes/single/post-share.php:11
+msgid "Check out this article: "
+msgstr ""
+
+#: includes/single/post-tags.php:19
+msgid "Tags"
+msgstr ""
+
+#: includes/sliders/breaking-news.php:40
+msgid "Breaking news"
+msgstr ""
+
+#: includes/sliders/breaking-news.php:47
+msgid ""
+"Please be sure that you have selected breaking slider posts, you can do it "
+"by adding/editing a post that you want to see in the slider."
+msgstr ""
+
+#: includes/widgets/widget-ad125x125.php:36
+msgid "Link 1:"
+msgstr ""
+
+#: includes/widgets/widget-ad125x125.php:37
+msgid "Image Url 1:"
+msgstr ""
+
+#: includes/widgets/widget-ad125x125.php:39
+msgid "Link 2:"
+msgstr ""
+
+#: includes/widgets/widget-ad125x125.php:40
+msgid "Image Url 2:"
+msgstr ""
+
+#: includes/widgets/widget-ad125x125.php:42
+msgid "Link 3:"
+msgstr ""
+
+#: includes/widgets/widget-ad125x125.php:43
+msgid "Image Url 3:"
+msgstr ""
+
+#: includes/widgets/widget-ad125x125.php:45
+msgid "Link 4:"
+msgstr ""
+
+#: includes/widgets/widget-ad125x125.php:46
+msgid "Image Url 4:"
+msgstr ""
+
+#: includes/widgets/widget-ad125x125.php:88
+msgid "Banner"
+msgstr ""
+
+#: includes/widgets/widget-ad300x250.php:35
+msgid ""
+"A widget that allows the display and configuration of of a single 300x250 "
+"Banner."
+msgstr ""
+
+#: includes/widgets/widget-ad300x250.php:41
+msgid " Custom 300x250 Ad"
+msgstr ""
+
+#: includes/widgets/widget-ad300x250.php:137
+msgid "Ad image url:"
+msgstr ""
+
+#: includes/widgets/widget-ad300x250.php:143
+msgid "Ad link url:"
+msgstr ""
+
+#: includes/widgets/widget-uniqmag-comments.php:6
+msgid " Latest Comments"
+msgstr ""
+
+#: includes/widgets/widget-uniqmag-comments.php:12
+msgid "Recent Comments"
+msgstr ""
+
+#: includes/widgets/widget-uniqmag-comments.php:24
+msgid "Comment count:"
+msgstr ""
+
+#: includes/widgets/widget-uniqmag-gallery.php:6
+#: includes/widgets/widget-uniqmag-gallery.php:12
+msgid "Latest Galleries"
+msgstr ""
+
+#: includes/widgets/widget-uniqmag-gallery.php:24
+msgid "Item shown:"
+msgstr ""
+
+#: includes/widgets/widget-uniqmag-latest-posts.php:6
+#: includes/widgets/widget-uniqmag-latest-posts.php:12
+msgid "Latests News"
+msgstr ""
+
+#: includes/widgets/widget-uniqmag-latest-posts.php:29
+#: includes/widgets/widget-uniqmag-popular-posts.php:28
+msgid "Category:"
+msgstr ""
+
+#: includes/widgets/widget-uniqmag-latest-posts.php:49
+#: includes/widgets/widget-uniqmag-popular-posts.php:48
+msgid "Images:"
+msgstr ""
+
+#: includes/widgets/widget-uniqmag-latest-posts.php:56
+#: includes/widgets/widget-uniqmag-popular-posts.php:55
+msgid "Style:"
+msgstr ""
+
+#: includes/widgets/widget-uniqmag-latest-posts.php:58
+#: includes/widgets/widget-uniqmag-popular-posts.php:57
+msgid "List"
+msgstr ""
+
+#: includes/widgets/widget-uniqmag-latest-posts.php:59
+#: includes/widgets/widget-uniqmag-popular-posts.php:58
+msgid "Grid"
+msgstr ""
+
+#: includes/widgets/widget-uniqmag-latest-posts.php:60
+#: includes/widgets/widget-uniqmag-popular-posts.php:59
+msgid "Large Images"
+msgstr ""
+
+#: includes/widgets/widget-uniqmag-latest-posts.php:64
+#: includes/widgets/widget-uniqmag-popular-posts.php:63
+msgid "Post count:"
+msgstr ""
+
+#: includes/widgets/widget-uniqmag-latest-posts.php:279
+#: includes/widgets/widget-uniqmag-popular-posts.php:284
+msgid "No posts where found"
+msgstr ""
+
+#: includes/widgets/widget-uniqmag-popular-posts.php:6
+#: includes/widgets/widget-uniqmag-popular-posts.php:12
+msgid "Popular Posts"
+msgstr ""

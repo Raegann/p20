@@ -1,0 +1,101 @@
+Version 1.0.8
+*Edited files
+style.css
+functions/tax-meta-class/tax-meta-class.php
+
+Version 1.0.7
+*Edited files
+style.css
+functions/uniqmag-menu.php
+
+Version 1.0.6
+*Edited files
+style.css
+includes/widgets/init.php
+includes/admin/general.php
+functions/class-different-filters.php
+
+
+Version 1.0.5
+*Edited files
+style.css
+includes/widgets/widget-uniqmag-popular-posts.php
+functions/class-different-options.php
+css/0-responsive.css
+
+Version 1.0.4
+*Edited files
+style.css
+css/style.css
+functions/class-different-filters.php
+functions/other.php
+includes/home-blocks/latest-news-1.php
+includes/home-blocks/latest-news-2.php
+includes/home-blocks/latest-news-3.php
+includes/home-blocks/latest-news-4.php
+includes/home-blocks/latest-news-5.php
+includes/home-blocks/latest-news-6.php
+includes/home-blocks/latest-news-7.php
+includes/home-blocks/latest-news-8.php
+includes/home-blocks/latest-news-9.php
+includes/home-blocks/latest-news-10.php
+includes/home-blocks/latest-news-11.php
+includes/home-blocks/latest-news-12.php
+includes/home-blocks/latest-news-13.php
+includes/home-blocks/latest-news-14.php
+includes/home-blocks/latest-news-15.php
+includes/home-blocks/title.php
+functions/drag-drop.php
+functions/homepage-blocks.php
+functions/class-different-sidebars.php
+functions/class-different-posts.php
+functions/other.php
+includes/news.php
+includes/loop/post.php
+includes/loop/image.php
+includes/single/post-tags.php
+
+Version 1.0.3
+*Edited files
+style.css
+includes/single/post-ratings.php
+includes/single/about-author.php
+includes/news-single.php
+functions/uniqmag-menu.php
+js/jquery-swiper.js
+js/jquery-init.js
+css/dynamic-css.php
+css/style.css
+css/0-responsive.css
+
+
+css/style.cssVersion 1.0.2
+*Edited files
+style.css
+css/style.css
+
+Version 1.0.1
+*Edited files
+includes/admin/general.php
+includes/admin/style.php
+functions.php
+functions/other.php
+functions/init.php
+functions/filters.php
+functions/class-different-ajax.php
+functions/class-different-filters.php
+functions/class-different-other.php
+functions/class-different-sidebars.php
+functions/class-different-themes.php
+functions/jquery-css-include.php
+includes/theme-config.php
+includes/top.php
+js/admin/scripts.js
+js/scripts.js
+maintenance.php
+js/jquery-init.js
+css/style.css
+css/0-responsive.css
+
+Version 1.0.0V
+* Initial Release

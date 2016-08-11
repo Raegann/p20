@@ -1,0 +1,513 @@
+/*------------------------------------------------------------------
+
+[Table of contents]
+
+1. Wrapper
+2. Main content
+3. Sidebar
+4. Top navigation
+5. Logo brand
+6. Header main
+7. Main navigation
+8. Mega menu
+9. Search form
+10. Breaking news
+11. Post slider
+12. Post grid
+13. Post blocks
+    13.1 Post block layout 4
+14. Pages
+    14.1 Under construction
+15. Footer navigation
+16. Single post
+    16.1 Share
+    16.2 Post header
+    16.3 Content
+    16.4 Review
+    16.5 Controls
+    16.6 Comments
+
+-------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------
+    1. Wrapper
+-------------------------------------------------------------------*/
+.cs-container {
+    padding-left: 15px;
+    padding-right: 15px
+}
+.cs-col {
+    width: 100%;
+    float: none;
+}
+#wpadminbar {
+    position: fixed
+}
+
+/*------------------------------------------------------------------
+    2. Main content
+-------------------------------------------------------------------*/
+.cs-main-content,
+.cs-main-content.cs-sidebar-on-the-right,
+.cs-main-content.cs-sidebar-on-the-left {
+    float: left;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
+.cs-single-post-no-share-buttons .cs-single-post-content{
+    padding-left: 0
+}
+body.single-post ul.breadcrumb {
+    margin-left: 0
+}
+
+/*------------------------------------------------------------------
+    3. Sidebar
+-------------------------------------------------------------------*/
+.cs-main-sidebar {
+    float: left;
+    width: 100%
+}
+
+/*------------------------------------------------------------------
+    4. Top navigation
+-------------------------------------------------------------------*/
+.cs-toggle-top-navigation {
+    display: block
+}
+#cs-header-meta .cs-container {
+    padding-left: 0;
+    padding-right: 0
+}
+#cs-top-navigation {
+    display: none;
+    clear: both;
+    width: 100%
+}
+#cs-top-navigation ul {
+    list-style: none;
+    padding: 0;
+    margin: 0
+}
+#cs-top-navigation a {
+    color: #fff
+}
+#cs-top-navigation .cs-top-navigation {
+    background-color: #222
+}
+#cs-top-navigation .cs-top-navigation > li > a {
+    font-size: 14px;
+    display: block;
+    padding: 8px 15px;
+    border-bottom: 1px solid #333;
+    color: #999;
+    font-weight: 700
+}
+#cs-top-navigation .cs-top-navigation > li > a:hover {
+    color: #fff;
+    background-color: #111
+}
+#cs-top-navigation .cs-top-navigation ul.sub-menu li a {
+    display: block;
+    padding: 5px 0;
+    padding-left: 30px;
+    border-bottom: 1px solid #333;
+    color: #999
+}
+#cs-top-navigation .cs-top-navigation ul.sub-menu li a:hover {
+    color: #fff;
+    background-color: #111
+}
+#cs-top-navigation .cs-top-navigation ul.sub-menu ul li a {
+    padding-left: 45px
+}
+#cs-top-navigation .cs-top-navigation ul.sub-menu ul ul li a {
+    padding-left: 60px
+}
+#cs-top-navigation .cs-top-navigation ul.sub-menu ul ul ul li a {
+    padding-left: 75px
+}
+
+/*------------------------------------------------------------------
+    5. Logo brand
+-------------------------------------------------------------------*/
+#cs-header-style-two #cs-logo-brand {
+    display: block;
+    text-align: center;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 25px
+}
+#cs-header-style-three #cs-logo-brand {
+    float: none;
+    display: inline-block;
+}
+
+/*------------------------------------------------------------------
+    6. Header main
+-------------------------------------------------------------------*/
+#cs-header-style-one #cs-header-main {
+    padding: 25px 0
+}
+#cs-header-main .cs-header-banner {
+    display: block;
+    text-align: center;
+    margin-top: 20px
+}
+#cs-header-main .cs-header-body-table {
+    display: block;
+    width: 100%
+}
+#cs-header-main .cs-header-body-row {
+    display: block;
+    width: 100%
+}
+
+/*------------------------------------------------------------------
+    7. Main navigation
+-------------------------------------------------------------------*/
+#cs-header-menu {
+    background-color: #111;
+}
+#cs-header-menu .cs-container {
+    padding-left: 0;
+    padding-right: 0
+}
+.cs-toggle-main-navigation {
+    display: block;
+}
+#cs-header-style-one .cs-toggle-main-navigation,
+#cs-header-style-two .cs-toggle-main-navigation {
+    padding-left: 15px
+}
+#cs-header-style-three .cs-toggle-main-navigation {
+    display: inline-block;
+    float: left;
+    font-size: 18px;
+    width: 35px;
+    height: 70px;
+    line-height: 70px;
+    padding-left: 15px;
+    margin-right: 20px
+}
+#cs-main-navigation {
+    display: none;
+    clear: both;
+    width: 100%;
+    overflow-y: scroll
+}
+#cs-main-navigation ul {
+    list-style: none;
+    padding: 0;
+    margin: 0
+}
+#cs-main-navigation a {
+    color: #fff
+}
+#cs-main-navigation .cs-main-navigation {
+    background-color: #222
+}
+#cs-main-navigation .cs-main-navigation > li > a {
+    font-size: 14px;
+    display: block;
+    padding: 8px 15px;
+    border-bottom: 1px solid #333 !important;
+    color: #999;
+    font-weight: 700
+}
+#cs-main-navigation .cs-main-navigation > li > a:hover {
+    color: #fff;
+    background-color: #111
+}
+#cs-main-navigation .cs-main-navigation ul.sub-menu li a {
+    display: block;
+    padding: 5px 0;
+    padding-left: 30px;
+    border-bottom: 1px solid #333;
+    color: #999
+}
+#cs-main-navigation .cs-main-navigation ul.sub-menu li a:hover {
+    color: #fff;
+    background-color: #111
+}
+#cs-main-navigation .cs-main-navigation ul.sub-menu ul li a {
+    padding-left: 45px
+}
+#cs-main-navigation .cs-main-navigation ul.sub-menu ul ul li a {
+    padding-left: 60px
+}
+#cs-main-navigation .cs-main-navigation ul.sub-menu ul ul ul li a {
+    padding-left: 75px
+}
+.cs-header-menu-is-sticky.fixed {
+    /*position: static !important;*/
+    /*margin-top: 0 !important*/
+}
+body.admin-bar #cs-header-menu.fixed {
+    margin-top: 46px
+}
+
+/*------------------------------------------------------------------
+    8. Mega menu
+-------------------------------------------------------------------*/
+#cs-main-navigation .cs-main-navigation ul.cs-mega-menu {
+    padding: 40px 15px 0 15px;
+    border-bottom: 1px solid #333
+}
+#cs-main-navigation .cs-main-navigation ul.cs-mega-menu .widget-title {
+    color: #999;
+    margin-bottom: 20px
+}
+#cs-main-navigation .cs-widget_featured_post .cs-post-item .cs-post-inner {
+    background-color: #222
+}
+
+/*------------------------------------------------------------------
+    9. Search form
+-------------------------------------------------------------------*/
+#cs-header-style-one #cs-header-menu-search-button-show i,
+#cs-header-style-one #cs-header-menu-search-button-hide i,
+#cs-header-style-two #cs-header-menu-search-button-show i,
+#cs-header-style-two #cs-header-menu-search-button-hide i,
+#cs-header-style-three #cs-header-menu-search-button-show i,
+#cs-header-style-three #cs-header-menu-search-button-hide i {
+    color: #fff
+}
+#cs-header-style-one #cs-header-menu-search-form form input,
+#cs-header-style-two #cs-header-menu-search-form form input,
+#cs-header-style-three #cs-header-menu-search-form form input {
+    background-color: #333
+}
+
+/*------------------------------------------------------------------
+    10. Breaking news
+-------------------------------------------------------------------*/
+#cs-breaking-news {
+    display: none;
+}
+
+/*------------------------------------------------------------------
+    11. Post slider
+-------------------------------------------------------------------*/
+.cs-post-slider-layout .cs-post-item .cs-post-inner h3,
+.cs-col-4-of-12 > .cs-post-slider-layout .cs-post-item .cs-post-inner h3,
+.cs-col-6-of-12 > .cs-post-slider-layout .cs-post-item .cs-post-inner h3,
+.cs-col-8-of-12 > .cs-post-slider-layout .cs-post-item .cs-post-inner h3,
+.cs-col-12-of-12 > .cs-post-slider-layout .cs-post-item .cs-post-inner h3 {
+    font-size: 16px;
+    line-height: 22px
+}
+.cs-col-4-of-12 > .cs-post-slider .cs-post-category,
+.cs-col-6-of-12 > .cs-post-slider .cs-post-category {
+    display: block;
+}
+.cs-post-slider-layout .cs-post-item .cs-post-inner {
+    padding: 0 15px 15px 15px
+}
+.cs-thumbnail-slider .cs-post-item .cs-post-inner {
+    padding: 10px
+}
+.cs-thumbnail-slider .cs-post-item .cs-post-inner h3 {
+    font-size: 14px;
+    line-height: 22px
+}
+.cs-thumbnail-slider .cs-post-item .cs-post-thumb .cs-post-border {
+    display: none;
+}
+
+/*------------------------------------------------------------------
+    12. Post grid
+-------------------------------------------------------------------*/
+.cs-post-grid-layout .cs-post-item.cs-width-50,
+.cs-post-grid-layout .cs-post-item.cs-width-33 {
+    white-space: normal;
+    width: 100%;
+    float: none;
+    display: inline-block;
+    padding: 0;
+    margin: 0 0 2px 0
+}
+.cs-post-grid-layout .cs-post-item .cs-post-inner h3 {
+    font-size: 16px;
+    line-height: 22px
+}
+.cs-post-grid-layout {
+    white-space: nowrap;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch
+}
+
+/*------------------------------------------------------------------
+    13. Post blocks
+-------------------------------------------------------------------*/
+/* Title */
+.cs-post-block-title p {
+    display: none;
+}
+
+/* Block overlay posts */
+.cs-post-block-overlay.cs-count-2 .cs-post-item,
+.cs-post-block-overlay.cs-count-3 .cs-post-item,
+.cs-post-block-overlay.cs-count-4 .cs-post-item {
+    width: 100%;
+    padding: 0;
+    margin: 0 0 1px 0
+}
+.cs-post-block-overlay .cs-post-item .cs-post-inner .cs-align-middle h3 {
+    font-size: 14px;
+    line-height: 20px
+}
+
+/*------------------------------------------------------------------
+    13.1 Post block layout 4
+-------------------------------------------------------------------*/
+.cs-post-block-layout-4 .cs-post-item .cs-post-thumb {
+    float: left;
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 10px
+}
+.cs-post-block-layout-4 .cs-post-item .cs-post-inner {
+    overflow: visible
+}
+.cs-post-block-layout-4 .cs-post-item .cs-post-inner h3 {
+    margin-bottom: 5px
+}
+
+/*------------------------------------------------------------------
+    14. Pages
+-------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+    14.1 Under construction
+-------------------------------------------------------------------*/
+.cs-countdown-block {
+    margin: 0 10px 20px 10px
+}
+.cs-countdown-number {
+    font-size: 30px;
+    line-height: 10px
+}
+.cs-countdown-label {
+    font-size: 12px;
+    letter-spacing: 1px
+}
+
+/*------------------------------------------------------------------
+    15. Footer navigation
+-------------------------------------------------------------------*/
+#cs-footer-menu {
+    background-color: #111;
+}
+#cs-footer-navigation {
+    display: none;
+    clear: both;
+    width: 100%
+}
+#cs-footer-menu .cs-container {
+    padding-left: 0;
+    padding-right: 0
+}
+.cs-toggle-footer-navigation {
+    display: block;
+    padding-left: 15px
+}
+#cs-footer-navigation .cs-footer-navigation {
+ background-color: #222
+
+}
+#cs-footer-navigation ul {
+    list-style: none;
+    padding: 0;
+    margin: 0
+}
+
+#cs-footer-navigation .cs-footer-navigation > li > a {
+    font-size: 14px;
+    display: block;
+    padding: 8px 15px;
+    border-bottom: 1px solid #333 !important;
+    color: #999;
+    font-weight: 700
+}
+#cs-footer-navigation .cs-footer-navigation > li > a:hover {
+    color: #fff;
+    background-color: #111
+}
+
+
+/*------------------------------------------------------------------
+    16. Single post
+-------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+    16.1 Share
+-------------------------------------------------------------------*/
+.cs-single-post-share {
+    float: none;
+    width: 100%
+}
+.cs-single-post-share a {
+    float: left;
+    margin-bottom: 0;
+    margin-right: 0.3%;
+    width: 19.7%
+}
+
+/*------------------------------------------------------------------
+    16.2 Post header
+-------------------------------------------------------------------*/
+.cs-post-single-title {
+    margin-left: 0
+}
+.cs-post-single-title h1 {
+    font-size: 28px;
+    line-height: 38px;
+}
+
+/*------------------------------------------------------------------
+    16.3 Content
+-------------------------------------------------------------------*/
+.cs-single-post-content {
+    overflow: visible
+}
+
+/*------------------------------------------------------------------
+    16.4 Review
+-------------------------------------------------------------------*/
+.cs-single-post-review {
+    float: left;
+    width: 100%;
+    display: block;
+    margin-bottom: 40px
+}
+.cs-single-post-review .cs-final-score {
+    float: none;
+    width: 100%;
+    margin-right: 0
+}
+
+/*------------------------------------------------------------------
+    16.5 Controls
+-------------------------------------------------------------------*/
+.cs-single-post-controls a {
+    font-size: 13px;
+    line-height: 21px
+}
+
+/*------------------------------------------------------------------
+    16.6 Comments
+-------------------------------------------------------------------*/
+.cs-comment-list .cs-comment .cs-children {
+    margin: 15px 0 0 0
+}
+.cs-comment-author img.avatar,
+.cs-comment .cs-children .cs-comment img.avatar {
+    width: 50px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px
+}
+.cs-comment .cs-children .cs-comment .cs-comment-content {
+    margin-left: 70px
+}
