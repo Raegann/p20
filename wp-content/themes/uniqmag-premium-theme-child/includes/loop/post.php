@@ -56,7 +56,7 @@
 
 
 	?>
-       <div class="<?php echo esc_attr($post_wrap_class); ?>">
+       <div class="<?php echo esc_attr($post_wrap_class); ?>">Tets
            
                                
                 <?php  $getslugid = wp_get_post_terms( $post->ID, 'profession' ); 
