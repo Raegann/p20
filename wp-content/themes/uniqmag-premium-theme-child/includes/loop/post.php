@@ -56,6 +56,7 @@
 
 
 	?>
+
        <div class="<?php echo esc_attr($post_wrap_class); ?>">
            <?php if(get_post_type(get_the_ID()) === 'workingplaces') : ?>
            <div class="workingplaces-count">
@@ -82,6 +83,21 @@
                 
               <?php endif; ?>  
            </div>           
+
+
+       <div class="<?php echo esc_attr($post_wrap_class); ?>">Tets
+           
+                               
+                <?php  $getslugid = wp_get_post_terms( $post->ID, 'profession' ); 
+                            foreach( $getslugid as $thisslug ) {
+
+                                echo $thisslug->slug . ' '; 
+                                $term_link = get_term_link( $term );
+                                echo $term_link;
+
+                }?>
+           
+                    
 
 	<?php
 
