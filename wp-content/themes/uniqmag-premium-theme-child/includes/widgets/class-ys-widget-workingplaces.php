@@ -82,6 +82,7 @@ class YS_Widget_Working_Places extends WP_Widget {
 		<?php if ( $title ) {
 			echo $args['before_title'] . $title . $args['after_title'];
 		} ?>
+            
 		<ul class="widget-workingplaces">
 		<?php while ( $r->have_posts() ) : $r->the_post(); ?>
                         <?php $categories = get_the_category(get_the_ID()); ?>
@@ -111,6 +112,7 @@ class YS_Widget_Working_Places extends WP_Widget {
 			</li>
 		<?php endwhile; ?>
 		</ul>
+                  <a href="<?php echo get_post_type_archive_link( 'workingplaces' ); ?>">Zobrazit více pozic</a>
 		<?php echo $args['after_widget']; ?>
 		<?php
 		// Reset the global $the_post as this query will have stomped on it
@@ -118,6 +120,8 @@ class YS_Widget_Working_Places extends WP_Widget {
 
 		endif;
 	}
+        
+         
 
 	/**
 	 * Handles updating the settings for the current Recent Posts widget instance.

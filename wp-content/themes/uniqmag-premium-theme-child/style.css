@@ -568,9 +568,9 @@ padding:0px !important;
 }
 
 
-.cs-single-post-controls {
+.single-workingplaces .cs-single-post-controls {
 
-
+       display:none;
 
 }
 
@@ -1016,6 +1016,33 @@ header > .cs-post-category-solid > a:hover{
     display: none;
 }
 
+.tax-profession .cs-post-meta-date{
+    
+    display:none;
+}
+
+.tax-profession .cs-post-meta-author{
+    
+    display: none;
+}
+
+.tax-profession .cs-post-inner h3{
+    
+    display:block;
+    font-size:20px;
+}
+
+
+.tax-profession .workingplaces-company{
+    
+    font-weight: bold;
+}
+
+.post-type-archive-workingplaces .cs-post-meta{
+    
+    display: none;
+}
+
 .post-type-archive-action .cs-post-meta-author{
     
     display:none;
@@ -1045,4 +1072,84 @@ header > .cs-post-category-solid > a:hover{
 .post-type-archive-workingplaces .cs-page-title{
     
     display: none;
+}
+
+.post-type-archive-workingplaces .cs-post-category-solid_1{
+    
+    
+    margin-left:10px;
+   
+    
+}
+
+.tax-profession .cs-post-category-solid_1{
+    
+    
+    margin-left:10px;
+    display: none;
+   
+    
+}
+
+.post-type-archive-tribe_events .cs-page-title{
+    
+    visibility: hidden;
+}
+
+.post-type-archive-workingplaces .cs-post-category-solid a{
+    
+    
+    margin-right:10px;
+   
+    
+}
+
+.post-type-archive-workingplaces .cs-post-block-layout-3{
+    
+   margin-bottom: 10px !important;
+}
+
+.tribe-events-cal-links{
+    
+    display:none !important;
+}
+
+.tribe-events-month .tribe-events-button{
+    
+    display:none !important;
+}
+
+.tribe-event-title{
+    
+    font-size: 14px;
+    font-weight: bold;
+
+}
+
+.tribe-event-title a{
+    
+    color:black;
+
+}
+
+.tribe-list-widget{
+    
+    margin-left:-20px !important;
+}
+
+.tribe-list-widget li{
+    
+    margin-bottom:7px !important;
+}
+
+.tribe-events-widget-link a{
+    
+    font-size:14px !important;
+    font-weight: normal !important;
+    
+}
+ 
+#tribe-bar-dates{
+     
+    display:none !important;
 }

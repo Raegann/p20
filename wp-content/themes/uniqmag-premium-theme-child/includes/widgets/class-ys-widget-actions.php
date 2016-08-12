@@ -116,6 +116,7 @@ class YS_Widget_Actions extends WP_Widget {
 			</li>
 		<?php endwhile; ?>
 		</ul>
+                 <a href="<?php echo get_post_type_archive_link( 'action' ); ?>">Zobrazit více akcí</a>
 		<?php echo $args['after_widget']; ?>
 		<?php
 		// Reset the global $the_post as this query will have stomped on it

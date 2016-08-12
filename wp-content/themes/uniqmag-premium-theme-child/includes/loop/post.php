@@ -56,21 +56,21 @@
 
 
 	?>
-       <div class="<?php echo esc_attr($post_wrap_class); ?>">Tets
+       <div class="<?php echo esc_attr($post_wrap_class); ?>">
            
-                               
-                    <?php $terms = wp_get_post_terms( $post_id, $profession );
-                
-                            foreach($terms as $term){
+            <div class="cs-post-category-solid_1 cs-post-category-solid">                    
+                <?php  $getslugid = wp_get_post_terms( $post->ID, 'profession' ); 
+                            foreach( $getslugid as $thisslug ) {
                                 
-                                echo $term;
-                            }; 
-                    
-                    
-                    ?>
-                   
-             
-                    
+                                echo '<a href="';
+                                echo $getlink = get_term_link( $thisslug,'profession');
+                                echo '">';
+                                echo $thisslug->slug . ' '; 
+                                echo '</a>';
+
+                }?>
+           </div>
+
 	<?php
 
 	if (have_posts()) : while (have_posts()) : the_post();
@@ -131,6 +131,7 @@
         <div <?php post_class($post_class); ?> id="post-<?php the_ID(); ?>">
             <!-- Block layout 3 -->
             <div class="cs-post-block-layout-3">
+                
                 <!-- Post item -->
                 <div class="cs-post-item">
                 	<?php if( $df_post->is_image(get_the_ID()) == true ) { ?>
@@ -235,6 +236,9 @@
                     </div>
                 </div>
             </div>
+            <?php if(is_tax( 'profession', $term )) : ?>
+                  <a href="<?php echo get_post_type_archive_link( 'workingplaces' ); ?>">Zpět na výpis pozic</a>
+                <?php endif; ?>
         </div>
 
     <?php } elseif( $blogStyle=="3") { ?>
