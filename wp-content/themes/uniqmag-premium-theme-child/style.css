@@ -56,6 +56,13 @@ font-family: 'Open Sans', sans-serif;
     font-size: 11px;
     color:black;
     font-weight: normal;
+    line-height: 0.9;
+
+}
+
+.category .cs-post-meta{
+	
+    line-height: 1.4;
 
 }
 
@@ -125,6 +132,13 @@ margin-right:0px;
   margin-top:10px;
 
 }
+
+#cs-main-navigation ul{
+    
+    margin-right: 30px !important;
+}
+
+
 
 @media only screen and (max-width: 1024px) {
  
@@ -810,8 +824,9 @@ header > .cs-post-category-solid > a:hover{
 }
 .workingplaces-company{
     
-        font-size: 18px;
+        font-size: 15px;
         color: #B61F24;
+        font-weight: normal !important;
 }
 .slider{
     
@@ -927,6 +942,11 @@ header > .cs-post-category-solid > a:hover{
     
 }
 
+#poll_ans_1{
+    
+    text-transform: lowercase;
+}
+
 .poll_wrap input[type="submit"]{
     
    
@@ -938,8 +958,7 @@ header > .cs-post-category-solid > a:hover{
 .poll_wrap a{
     
     margin-top:5px !important;
-    color: black;
-    
+    text-transform: lowercase;
 }
 
 .poll_wrap a:hover{
@@ -991,7 +1010,7 @@ header > .cs-post-category-solid > a:hover{
 
 .post-type-archive-workingplaces .cs-post-meta-date{
     
-    display:none;
+   
 }
 
 .post-type-archive-workingplaces .cs-post-meta-author{
@@ -1009,7 +1028,9 @@ header > .cs-post-category-solid > a:hover{
 .post-type-archive-workingplaces .workingplaces-company{
     
     font-weight: bold;
+    font-size: 15px;
 }
+
 
 .post-type-archive-workingplaces .cs-post-meta{
     
@@ -1069,10 +1090,6 @@ header > .cs-post-category-solid > a:hover{
     display: none;
 }
 
-.post-type-archive-workingplaces .cs-page-title{
-    
-    display: none;
-}
 
 .post-type-archive-workingplaces .cs-post-category-solid_1{
     
@@ -1082,11 +1099,28 @@ header > .cs-post-category-solid > a:hover{
     
 }
 
+.post-type-archive-workingplaces hr{
+    
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
 .tax-profession .cs-post-category-solid_1{
     
     
     margin-left:10px;
-    display: none;
+   
+   
+    
+}
+
+.tax-profession .cs-post-category-solid_1 a{
+    
+    
+    margin-right:10px;
+   
    
     
 }
@@ -1148,8 +1182,94 @@ header > .cs-post-category-solid > a:hover{
     font-weight: normal !important;
     
 }
+
+.tribe-events-widget-link{
+    
+    text-transform: lowercase;
+}
+
+.tribe-events-back{
+    
+    text-transform: lowercase;
+}
+
+.tribe-bar-date-filter{
+    
+    visibility: hidden;
+}
  
-#tribe-bar-dates{
+.tribe-event-title{
+    
+    margin-bottom: -3px;
+    
+}
+
+.tribe-events-page-title{
+    
+    text-align: left !important;
+}
+
+.post-type-archive-tribe_events .cs-page-title{
+    
+    display:none;
+}
+
+.workingplaces-date{
+    
+    font-weight: normal;
+    color:black;
+    font-size: 12px;
      
+}
+
+.workingplaces-count{
+    
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.tax-profession .workingplaces-count{
+    
+    display: none;
+}
+
+.workingplaces-back{
+    
+    margin-left:10px;
+    
+}
+
+.tax-profession hr{
+    
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+    
+}
+
+.tribe-events-button{
+    
+    display: none !important;
+}
+
+.tribe-event-url{
+    
+    color:#B61F24;
+}
+
+.tribe-events-sub-nav{
+    
     display:none !important;
+    
+}
+
+.single-tribe_events .cs-page-title{
+    
+    display: none;
+}
+
+.post-type-archive-tribe_events .tribe-events-list-event-description{
+    
+    display:none;
 }

@@ -57,8 +57,18 @@
 
 	?>
        <div class="<?php echo esc_attr($post_wrap_class); ?>">
-           
-            <div class="cs-post-category-solid_1 cs-post-category-solid">                    
+           <?php if(get_post_type(get_the_ID()) === 'workingplaces') : ?>
+           <div class="workingplaces-count">
+                    Celkový počet nabídek:
+                    <?php
+                            $count_posts = wp_count_posts('workingplaces');
+                            echo $count_posts->publish;
+                    ?>
+           </div>
+           <?php endif; ?>  
+            <div class="cs-post-category-solid_1 cs-post-category-solid">  
+                <?php if(get_post_type(get_the_ID()) === 'workingplaces') : ?>
+                <a href="<?php echo get_post_type_archive_link( 'workingplaces' ); ?>">VŠE</a>
                 <?php  $getslugid = wp_get_post_terms( $post->ID, 'profession' ); 
                             foreach( $getslugid as $thisslug ) {
                                 
@@ -69,7 +79,9 @@
                                 echo '</a>';
 
                 }?>
-           </div>
+                
+              <?php endif; ?>  
+           </div>           
 
 	<?php
 
@@ -131,7 +143,7 @@
         <div <?php post_class($post_class); ?> id="post-<?php the_ID(); ?>">
             <!-- Block layout 3 -->
             <div class="cs-post-block-layout-3">
-                
+                 
                 <!-- Post item -->
                 <div class="cs-post-item">
                 	<?php if( $df_post->is_image(get_the_ID()) == true ) { ?>
@@ -160,13 +172,18 @@
                     <?php } ?>
                <div class="cs-post-inner">
                         <h3><a href="<?php the_permalink();?>"><?php the_title();?></a></h3>
-                        <?php if(get_post_type(get_the_ID()) === 'workingplaces') : ?>
-                        <div class="workingplaces-company">
-
+                        <?php if(get_post_type(get_the_ID()) === 'workingplaces') : ?>                       
+                        <div class="workingplaces-company">                             
                                     <?php if(get_field('spolecnost', get_the_ID())) : ?>
                                         <?php echo get_field('spolecnost', get_the_ID()); ?>
-
-                                    <?php endif; ?>
+                                           <div class="workingplaces-date">
+                                            <?php 
+                                                echo get_the_date();
+                                            ?>
+                                            
+                                           </div>
+                                    <?php endif; ?>                           
+                            <hr>
                             </div>
                         <?php endif; ?>
                         <?php if(get_post_type(get_the_ID()) === 'action') : ?>
@@ -236,9 +253,7 @@
                     </div>
                 </div>
             </div>
-            <?php if(is_tax( 'profession', $term )) : ?>
-                  <a href="<?php echo get_post_type_archive_link( 'workingplaces' ); ?>">Zpět na výpis pozic</a>
-                <?php endif; ?>
+            
         </div>
 
     <?php } elseif( $blogStyle=="3") { ?>

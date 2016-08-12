@@ -112,7 +112,7 @@ class YS_Widget_Working_Places extends WP_Widget {
 			</li>
 		<?php endwhile; ?>
 		</ul>
-                  <a href="<?php echo get_post_type_archive_link( 'workingplaces' ); ?>">Zobrazit více pozic</a>
+                  <a href="<?php echo get_post_type_archive_link( 'workingplaces' ); ?>">zobrazit všechny pozice</a>
 		<?php echo $args['after_widget']; ?>
 		<?php
 		// Reset the global $the_post as this query will have stomped on it
