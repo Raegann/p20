@@ -64,12 +64,12 @@ $gal = foogallery_get_all_galleries();
             $tmp = 0;
             
             foreach ($gal as $g) if ($tmp < 4){
-                $usages = $g->find_usages();
+                
                 $src = apply_filters('foogallery_attachment_resize_thumbnail', $g->featured_image_src('full'), $args, $g);
                 $tmp += 1;
                 ?>
                 <li>
-                    <a href="<?php echo get_the_permalink($usages[0]) ?>">
+                    <a href="<?php echo get_the_permalink($g->ID) ?>">
                         <img src="<?php echo $src ?>"/>
 
                         <div class="hover_overlay">

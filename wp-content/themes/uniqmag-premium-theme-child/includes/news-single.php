@@ -93,6 +93,9 @@
 
 	                <!-- Content -->
 	                <div class="cs-single-post-paragraph">
+                                <?php if(get_post_type(get_the_ID()) === 'foogallery') : ?>
+                                    <?php echo do_shortcode('[foogallery id="'.get_the_ID().'"]'); ?>
+                                <?php else : ?>
 						<?php wp_reset_postdata();?>		
 						<?php
 							add_filter('the_content', 'BigFirstChar');	
@@ -113,6 +116,7 @@
 
 							wp_link_pages($args); 
 						?>
+                                <?php endif; ?>
 	                </div>
 	                <?php get_template_part(UNIQMAG_DIFFERENT_THEME_SINGLE."post-tags"); ?>
 
