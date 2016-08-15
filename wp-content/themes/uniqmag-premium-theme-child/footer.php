@@ -1,5 +1,3 @@
-
-
 <footer>
     <div class="cs-container">
             <div class="cs-row">

@@ -90,8 +90,21 @@ function create_posttype() {
 // Hooking up our function to theme setup
 add_action( 'init', 'create_posttype' );
 
+function change_gallery_args(){
+    $args = array(
+            'public'                => true,
+            'publicly_queryable'    =>  true,
+            'show_in_nav_menus'     =>  true,
+            'has_archive'           =>  true,
+            'rewrite'               => array ('slug' => 'galerie', 'with_front' => true)
+    );
+    return $args;
+}
+add_filter('foogallery_gallery_posttype_register_args','change_gallery_args');
+
+
 /**
- * Filter the except length to 20 characters.
+ * Filter the except length to 45 characters.
  *
  * @param int $length Excerpt length.
  * @return int (Maybe) modified excerpt length.
