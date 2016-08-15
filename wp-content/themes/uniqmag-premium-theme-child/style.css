@@ -66,6 +66,17 @@ font-family: 'Open Sans', sans-serif;
 
 }
 
+.author .cs-post-meta{
+	
+    line-height: 1.4;
+
+}
+
+.author .new-category{
+    
+    display: none;
+}
+
 
 /*box-headline*/
 .cs-post-block-title h4 a{
@@ -181,6 +192,22 @@ margin-right:0px;
 		
 
 	}
+        
+        .footer_logo{
+            
+            margin-right: 30px;
+        }
+        
+        footer{
+            
+            text-align: center;
+        }
+        
+        footer .cs-container{
+            
+            padding:0px !important;
+        }
+        
 	#cs-header-style-three .cs-toggle-main-navigation{
 
 		padding-left:0px;
@@ -564,6 +591,11 @@ padding:0px !important;
 
 }
 
+.dropcap:first-letter{
+    
+    color:inherit;
+}
+
 
 .cs-single-post-paragraph > p::first-letter { 
     font-size:15px;
@@ -576,7 +608,7 @@ padding:0px !important;
 
 .single-workingplaces .cs-single-post-controls {
 
-       display:none;
+    display:none;
 
 }
 
@@ -830,6 +862,7 @@ header > .cs-post-category-solid > a:hover{
 .container-hpgallery .cs-row{
     
     margin-bottom: 40px !important;
+    margin-left: 20px !important;
  
 }
 
@@ -852,7 +885,7 @@ header > .cs-post-category-solid > a:hover{
     
     display:inline;
     float: left;
-    margin-right: 20px;
+    margin-right: 12px;
     margin-top: 20px;
     
 }
@@ -1292,4 +1325,15 @@ footer .cs-row{
 .widget_huge_it_widget{
     
     padding: 0px !important;
+}
+
+.single-foogallery .cs-single-post-controls{
+    
+    display:none;
+}
+
+
+.cs-single-post-controls{
+    
+    display: none;
 }

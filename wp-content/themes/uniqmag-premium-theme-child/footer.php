@@ -24,7 +24,7 @@
 		  </div>
 		  <div class="right cs-col cs-col-4-of-12">
 			  <div class="clear"></div>
-			  <img src="/praha20/wp-content/uploads/2016/08/footerlogo.png" alt="logo">
+			  <img class="footer_logo" src="/praha20/wp-content/uploads/2016/08/footerlogo.png" alt="logo">
 			  
             </div>
 	</div>

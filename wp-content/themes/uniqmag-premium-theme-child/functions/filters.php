@@ -49,7 +49,7 @@ if(Different_Themes()->options->get(THEME_NAME."_breadcrumb")=="on") {
 
 if(!function_exists('BigFirstChar')) {
 	function BigFirstChar ($content = '') {
-		$content = preg_replace('/<p>/', '<p class="dropcap">',$content, 1);
+		$content = preg_replace('/<p>/', '<p class="">',$content, 1);
 		return $content;
 	}
 }
