@@ -999,7 +999,7 @@ function uniqmag_different_themes_page_title() {
 		$title = $catName;
 	} else if (is_author()) {
 		$curauth = (get_query_var('author_name')) ? get_user_by('slug', get_query_var('author_name')) : get_userdata(get_query_var('author'));
-		$title = esc_html__("Posts From",'uniqmag'). " ".$curauth->display_name;
+		$title = esc_html__("Posts From",'uniqmag-child'). " ".$curauth->display_name;
 	} else if(is_tag()) {
 		$category = single_tag_title('',false);
 		$title =  esc_html__("Tag",'uniqmag')." \"".$category."\"";
