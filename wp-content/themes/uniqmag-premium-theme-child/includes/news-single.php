@@ -27,6 +27,9 @@
 
             <!-- Post header -->
             <header class="cs-post-single-title">
+                <?php if(get_post_type(get_the_ID()) === 'workingplaces') : ?>
+                  <a href="<?php echo get_post_type_archive_link( 'workingplaces' ); ?>">Zpět na výpis pozic</a>
+                <?php endif; ?>
             	<?php if( $df_post->compare( get_the_ID(), 'post_category' ) == "1" && $categories ) { ?>
 	                <div class="cs-post-category-solid cs-clearfix">
                     	<?php 
@@ -59,20 +62,22 @@
                     
                 </div>
                 <!--TODO: udělat zde tagy-->
-                <div class="workingplaces-company">
-                     <?php echo get_field('spolecnost'); ?>
-                </div>
-                
-                
-                <div class="action-date">
+                     
                  
-                <?php
-                        $date = new DateTime(get_field('datum_akce'));
-                         echo $date->format('d. m. Y');
-                ?>
-  
-                </div>
+                <?php if(get_post_type(get_the_ID()) === 'workingplaces') : ?>
+                      <div class="workingplaces-company">
+                             <?php echo get_field('spolecnost'); ?>
+                        </div>
+                <?php endif; ?>
                 
+                 <?php if(get_post_type(get_the_ID()) === 'action') : ?>
+                        <div class="action-date">  
+                              <?php
+                                        $date = new DateTime(get_field('datum_akce'));
+                                         echo $date->format('d. m. Y');
+                              ?>
+                        </div>
+                <?php endif; ?>
 
             </header>
 

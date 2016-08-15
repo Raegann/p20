@@ -70,6 +70,8 @@ function create_posttype() {
         ));
         
         
+        
+    /*
         register_post_type( 'action',
 	// CPT Options
 		array(
@@ -83,7 +85,7 @@ function create_posttype() {
                         'menu_icon' => 'dashicons-format-audio',
                         'rewrite' => array('slug' => 'akce'),
 		)
-	);
+	);*/
 }
 // Hooking up our function to theme setup
 add_action( 'init', 'create_posttype' );
