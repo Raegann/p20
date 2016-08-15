@@ -106,7 +106,7 @@
                                     if( $df_post->compare( get_the_ID(), 'post_author' ) == "1" ) { 
                                 ?>
                                     <span class="cs-post-meta-author">
-                                        <?php echo the_author_posts_link(); ?>
+                                        <?php echo get_the_author(); ?>
                                     </span>
                                 <?php
                                     } 
@@ -166,7 +166,7 @@
                                     if( $df_post->compare( get_the_ID(), 'post_author' ) == "1" ) { 
                                 ?>
                                     <span class="cs-post-meta-author">
-                                        <?php echo the_author_posts_link(); ?>
+                                        <?php echo get_the_author(); ?>
                                     </span>
                                 <?php
                                     } 
