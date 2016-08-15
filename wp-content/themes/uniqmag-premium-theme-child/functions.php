@@ -91,14 +91,35 @@ function create_posttype() {
 add_action( 'init', 'create_posttype' );
 
 function change_gallery_args(){
-    $args = array(
+
+    $default_arr = array(
+            'labels'        => array(
+                    'name'               => __( 'Galleries', 'foogallery' ),
+                    'singular_name'      => __( 'Gallery', 'foogallery' ),
+                    'add_new'            => __( 'Add Gallery', 'foogallery' ),
+                    'add_new_item'       => __( 'Add New Gallery', 'foogallery' ),
+                    'edit_item'          => __( 'Edit Gallery', 'foogallery' ),
+                    'new_item'           => __( 'New Gallery', 'foogallery' ),
+                    'view_item'          => __( 'View Gallery', 'foogallery' ),
+                    'search_items'       => __( 'Search Galleries', 'foogallery' ),
+                    'not_found'          => __( 'No Galleries found', 'foogallery' ),
+                    'not_found_in_trash' => __( 'No Galleries found in Trash', 'foogallery' ),
+                    'menu_name'          => foogallery_plugin_name(),
+                    'all_items'          => __( 'Galleries', 'foogallery' )
+            ),
+            'hierarchical'          => false,
             'public'                => true,
             'publicly_queryable'    => true,
-            'show_in_nav_menus'     => true,
             'has_archive'           => true,
-            'rewrite'               => array ('slug' => 'galerie', 'with_front' => true)
+            'rewrite'               => array ('slug' => 'galerie', 'with_front' => true),
+            'show_ui'               => true,
+            'show_in_menu'          => true,
+            'show_in_nav_menus'     => true,
+            'menu_icon'             => 'dashicons-format-gallery',
+            'supports'              => array( 'title', 'thumbnail', ),
     );
-    return $args;
+
+    return $default_arr;
 }
 add_filter('foogallery_gallery_posttype_register_args','change_gallery_args');
 
