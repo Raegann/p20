@@ -82,22 +82,14 @@
                 }?>
                 
               <?php endif; ?>  
-           </div>           
-
-
-       <div class="<?php echo esc_attr($post_wrap_class); ?>">Tets
+           </div>    
            
-                               
-                <?php  $getslugid = wp_get_post_terms( $post->ID, 'profession' ); 
-                            foreach( $getslugid as $thisslug ) {
+       </div>
 
-                                echo $thisslug->slug . ' '; 
-                                $term_link = get_term_link( $term );
-                                echo $term_link;
 
-                }?>
+       <div class="<?php echo esc_attr($post_wrap_class); ?>">
            
-                    
+                                        
 
 	<?php
 
