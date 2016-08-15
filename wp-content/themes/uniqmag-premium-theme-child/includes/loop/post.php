@@ -180,6 +180,11 @@
                     <?php } ?>
                <div class="cs-post-inner">
                         <h3><a href="<?php the_permalink();?>"><?php the_title();?></a></h3>
+                        <?php if(get_post_type(get_the_ID()) === 'foogallery') : ?>
+                                    
+                                Tady bude náhled!  
+                
+                        <?php endif; ?>  
                         <?php if(get_post_type(get_the_ID()) === 'workingplaces') : ?>                       
                         <div class="workingplaces-company">                             
                                     <?php if(get_field('spolecnost', get_the_ID())) : ?>
