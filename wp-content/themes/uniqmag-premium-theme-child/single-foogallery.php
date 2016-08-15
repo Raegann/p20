@@ -8,4 +8,4 @@
 ?>
 <?php echo do_shortcode('[foogallery id="'.$post->ID.'"]'); ?>
 <?php    
-    get_footer();
+    get_footer();  

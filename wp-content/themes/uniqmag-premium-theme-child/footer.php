@@ -11,7 +11,7 @@
 				<li><a href="">Mobilní aplikace</a></li>
 			</ul>
 			  <p class="copyright">Copyright 2016 ÚMČ Praha 20</p>
-
+ 
 		  </div>
 		  <div class="center cs-col cs-col-4-of-12">
 		
