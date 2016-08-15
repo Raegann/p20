@@ -93,9 +93,9 @@ add_action( 'init', 'create_posttype' );
 function change_gallery_args(){
     $args = array(
             'public'                => true,
-            'publicly_queryable'    =>  true,
-            'show_in_nav_menus'     =>  true,
-            'has_archive'           =>  true,
+            'publicly_queryable'    => true,
+            'show_in_nav_menus'     => true,
+            'has_archive'           => true,
             'rewrite'               => array ('slug' => 'galerie', 'with_front' => true)
     );
     return $args;
