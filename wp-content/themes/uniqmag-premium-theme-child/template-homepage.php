@@ -49,7 +49,8 @@ Template Name: Drag & Drop Page Builder
         
 <?php get_template_part(UNIQMAG_DIFFERENT_THEME_LOOP."loop-end"); ?>
         
-        <div class="container container-hpgallery">
+        <div class="cs-container container-hpgallery">
+           <div class="cs-row">
             <h2>Fotogalerie</h2>
                     <?php
 
@@ -86,6 +87,7 @@ $gal = foogallery_get_all_galleries();
             }
             
             ?>
+           </div>
        </div>
         
 

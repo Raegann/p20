@@ -1,10 +1,10 @@
 
 
 <footer>
-	<div class="container">
-            
+    <div class="cs-container">
+            <div class="cs-row">
 		<img class="pattern" src="/praha20/wp-content/uploads/2016/08/paticka_obili.png" alt="logo">
-		  <div class="col-sm-4">
+		  <div class="cs-col cs-col-4-of-12">
 			  <img class="logo" src="/praha20/wp-content/uploads/2016/08/erb.png" alt="logo">
 			<ul class="footer_menu">
 				<li><a href="">Mapa webu</a></li>
@@ -15,7 +15,7 @@
 			  <p class="copyright">Copyright 2016 ÚMČ Praha 20</p>
 
 		  </div>
-		  <div class="col-sm-4 center">
+		  <div class="center cs-col cs-col-4-of-12">
 		
 			  <h3>Úřední hodiny</h3>
 			  <p>Pondělí, středa: 7:30 - 12:00 a 13:00 - 18:00<br>Pátek: 7:30 - 11:00</p>
@@ -24,13 +24,13 @@
 			  <p>Datová schránka: seibq29</p>
 		  
 		  </div>
-		  <div class="col-sm-4 right">
+		  <div class="right cs-col cs-col-4-of-12">
 			  <div class="clear"></div>
 			  <img src="/praha20/wp-content/uploads/2016/08/footerlogo.png" alt="logo">
 			  
-		  </div>
+            </div>
 	</div>
-
+      </div>
 </footer>
 	<?php wp_footer(); ?>
 	<!-- END body -->
