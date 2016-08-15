@@ -135,3 +135,61 @@ function ys_custom_excerpt_length( $length ) {
 }
 add_filter( 'excerpt_length', 'ys_custom_excerpt_length', 999 );
 
+function wpdocs_child_theme_setup() {
+    load_theme_textdomain( 'uniqmag-child', get_stylesheet_directory() . '/languages' );
+}
+add_action( 'after_setup_theme', 'wpdocs_child_theme_setup' );
+
+
+function uniqmag_child_different_themes_page_title() {
+	$post_type = get_post_type();
+	//check if bbpress
+	if (function_exists("is_bbpress") && is_bbpress()) {
+		$OTbbpress = true;
+	} else {
+		$OTbbpress = false;
+	}
+
+	if(!is_archive() && !is_category() && !is_search() && $post_type!=UNIQMAG_DIFFERENT_THEME_POST_GALLERY && $post_type!=UNIQMAG_DIFFERENT_THEME_POST_PORTFOLIO) {
+		$title = get_the_title(Different_Themes()->page_id());
+	} else if(is_single() && $post_type==UNIQMAG_DIFFERENT_THEME_POST_GALLERY) {
+		$galID = uniqmag_different_themes_get_page('gallery-1');
+		$title = get_the_title($galID[0]);
+	}  else if(is_single() && $post_type==UNIQMAG_DIFFERENT_THEME_POST_PORTFOLIO) {
+		$portID = uniqmag_different_themes_get_page(UNIQMAG_DIFFERENT_THEME_POST_PORTFOLIO);
+		$title = get_the_title($portID[0]);
+	}  else if(is_search()) {
+		$title = esc_html__("Search Results for",'uniqmag')." \"".esc_html($_GET['s'])."\"";
+	} else if(is_category()) {
+		$category = get_category( get_query_var( 'cat' ) );
+		$cat_id = $category->cat_ID;
+		$catName = get_category($cat_id )->name;
+		$title = $catName;
+	} else if (is_author()) {
+		$curauth = (get_query_var('author_name')) ? get_user_by('slug', get_query_var('author_name')) : get_userdata(get_query_var('author'));
+		$title = esc_html__("Posts From",'uniqmag-child'). " ".$curauth->display_name;
+	} else if(is_tag()) {
+		$category = single_tag_title('',false);
+		$title =  esc_html__("Tag",'uniqmag')." \"".$category."\"";
+	} else if(is_tax()) {
+		$category = single_tag_title('',false);
+		$title = $category;
+	} else if(is_archive()) {
+		if(Different_Themes()->woocommerce->is_activated() == true && is_woocommerce() && $OTbbpress!=true) {
+			$title = woocommerce_page_title(false);
+		} elseif( $OTbbpress==true) {
+			$title = get_the_title(get_the_ID());
+		} else {
+                    $postType = get_queried_object();
+                    $postType_name = $postType->labels->singular_name;
+                    if(isset($postType_name) && $postType_name !== null && $postType_name != '') :
+                        $title = esc_html__($postType_name,'uniqmag-child');
+                    else :
+			$title = esc_html__("Archive",'uniqmag-child');	
+                    endif;
+		}
+	}else {
+		$title = get_the_title(Different_Themes()->page_id());
+	}
+	echo esc_html(stripslashes($title));
+}
