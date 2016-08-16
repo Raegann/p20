@@ -193,6 +193,17 @@ margin-right:0px;
 
 	}
         
+        .cs-main-content{
+            
+            padding-left: 15px !important;
+            padding-right: 15px !important;
+        }
+        
+        #tribe-events-content-wrapper{
+            
+            text-align: center;
+        }
+        
         .footer_logo{
             
             margin-right: 30px;
