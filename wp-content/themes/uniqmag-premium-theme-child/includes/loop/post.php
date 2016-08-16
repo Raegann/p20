@@ -28,6 +28,7 @@
 		$blogStyle = get_post_meta ( Different_Themes()->page_id(), "_".THEME_NAME."_blogStyle", true ); 	
 		$sidebar = get_post_meta( Different_Themes()->page_id(), "_".THEME_NAME.'_sidebar_select', true );
 	}
+        
 
 	if(!$blogStyle) {
 		$blogStyle = 1;
@@ -125,6 +126,7 @@
 ?>
 
 	<?php if($blogStyle=="1" || $blogStyle=="2" || $blogStyle =="8") { ?>
+
         <div <?php post_class($post_class); ?> id="post-<?php the_ID(); ?>">
             <!-- Block layout 3 -->
             <div class="cs-post-block-layout-3">
@@ -157,6 +159,43 @@
                     <?php } ?>
                <div class="cs-post-inner">
                         <h3><a href="<?php the_permalink();?>"><?php the_title();?></a></h3>
+                        
+                        <?php if(get_post_type(get_the_ID()) === 'foogallery') : ?>
+                        <?php
+
+                                $gal = foogallery_get_all_galleries();
+                                $args = array(
+                                    'width'  => 250,
+                                    'height' => 250,
+                                    'crop'   => true,
+                                );
+
+                                if($tmp==null){
+
+                                    $tmp = 0;
+
+                                }
+            
+                                $g = $gal[$tmp];
+
+
+                                $src = apply_filters('foogallery_attachment_resize_thumbnail', $g->featured_image_src('full'), $args, $g);
+                                $tmp += 1;
+                                ?>
+                        <li><?php endif; ?>  
+                    <a href="<?php echo get_the_permalink($g->ID) ?>">
+                        <img src="<?php echo $src ?>"/>
+
+                        <div class="hover_overlay">
+                            <div class="centered">
+                                <span class="line"></span>
+                                <span
+                                    class="description"><?php echo $g->settings['masonry-direction-hover_description'] ?></span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+
                         <?php if(get_post_type(get_the_ID()) === 'workingplaces') : ?>                       
                         <div class="workingplaces-company">                             
                                     <?php if(get_field('spolecnost', get_the_ID())) : ?>
@@ -307,9 +346,6 @@
                 </a>
             </div>
         </div>
-        
-
-
     <?php } elseif( $blogStyle == "4" ) { ?>
     	<div class="cs-col cs-col-6-of-12">
             <!-- Block layout 2 -->
@@ -476,6 +512,8 @@
 
     <?php } ?>
         
+        
+    
 
 
 <?php if($postsInRow != false && $count%$postsInRow==0 && $count!=$wp_query->post_count) { ?>
@@ -493,7 +531,4 @@
 	<?php endif; ?>
 
 
-		</div>
-
-
-
+</div>
