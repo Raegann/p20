@@ -193,6 +193,17 @@ margin-right:0px;
 
 	}
         
+        .cs-main-content{
+            
+            padding-left: 15px !important;
+            padding-right: 15px !important;
+        }
+        
+        #tribe-events-content-wrapper{
+            
+            text-align: center;
+        }
+        
         .footer_logo{
             
             margin-right: 30px;
@@ -1128,6 +1139,32 @@ header > .cs-post-category-solid > a:hover{
     background: #333;
     background-image: linear-gradient(to right, #ccc, #333, #ccc);
 }
+
+.post-type-archive-foogallery hr{
+    
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+.post-type-archive-foogallery .cs-post-meta{
+    
+    display: none;
+}
+
+.post-type-archive-foogallery .cs-post-inner li{
+    
+    list-style-type: none;
+    margin-top: 30px;
+    
+}
+
+.post-type-archive-foogallery .cs-post-inner h3{
+    
+    font-size: 22px;
+}
+
 
 .tax-profession .cs-post-category-solid_1{
     
