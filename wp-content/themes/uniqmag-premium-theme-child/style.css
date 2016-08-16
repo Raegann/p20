@@ -159,20 +159,35 @@ margin-right:0px;
 
 	}
 
+        
+        
+
 	
 }
 
-@media only screen and (max-width: 764px) {
+@media only screen and (max-width: 1024px) {
  
-	#cs-main-navigation .cs-main-navigation{
+	#cs-header-style-three #cs-main-navigation{
 
-		background-color:white;
-		text-align:center;
-		margin-bottom:20px;
-		
+		float:left;
 
 	}
-       
+
+        
+        
+
+	
+}
+
+
+
+@media only screen and (min-width: 1024px) {
+ 
+    .container-hpgallery li{
+        
+        margin-right: 32px !important;
+        
+    }
 
 
 }
@@ -184,7 +199,7 @@ margin-right:0px;
 }
 
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 768px) {
  
 	#cs-header-menu .cs-container{
 
@@ -195,8 +210,8 @@ margin-right:0px;
         
         .cs-main-content{
             
-            padding-left: 15px !important;
-            padding-right: 15px !important;
+            padding-left: 18px !important;
+            padding-right: 18px !important;
         }
         
         #tribe-events-content-wrapper{
@@ -298,8 +313,8 @@ margin-right:0px;
 	
 	.footer_menu > li+li {
 		
-		border-left: 1px solid #D5D5D6;
-		padding-left: 15px;
+		
+		padding-left: 5px;
 		
 	
 	}
