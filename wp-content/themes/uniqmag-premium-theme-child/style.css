@@ -172,7 +172,26 @@ margin-right:0px;
 		
 
 	}
+<<<<<<< HEAD
+
+        
+        
+
+	
+}
+
+
+
+@media only screen and (min-width: 1024px) {
+ 
+    .container-hpgallery li{
+        
+        margin-right: 33px !important;
+        
+    }
+=======
        
+>>>>>>> origin/master
 
 
 }

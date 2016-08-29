@@ -88,7 +88,16 @@
                                     </a>
                                 </h3>
                                 
-                                 
+                                 <div class="cs-post-category-solid cs-clearfix">
+                                    <?php 
+                                        foreach($categories as $cat) {
+                                    ?>
+                                        <a href="<?php echo esc_url(get_category_link($cat->term_id));?>">
+                                            <?php echo esc_html(get_cat_name($cat->term_id));?>
+                                        </a>
+                                        
+                                    <?php } ?>
+                                  </div>
                                 
                                 <div class="cs-post-meta cs-clearfix">
                                     
@@ -106,6 +115,9 @@
                                     <?php
                                         } 
                                     ?>
+                                   
+                                 
+                                    
                                 </div>
                                 
                             </div>
