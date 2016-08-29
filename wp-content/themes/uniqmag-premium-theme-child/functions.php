@@ -1,7 +1,5 @@
 <?php
 
-   
-
 include_once get_stylesheet_directory() . '/includes/widgets/class-ys-widget-recent-posts.php';
 add_action( 'widgets_init', function(){
 	register_widget( 'YS_Widget_Recent_Posts' );
@@ -22,7 +20,14 @@ function ys_enqueue_scripts(){
 }
 add_action( 'wp_enqueue_scripts', 'ys_enqueue_scripts' );
 
+function ys_enqueue_admin_scripts($hook) {
+    if ( 'post-new.php' != $hook ) {
+        return;
+    }
 
+    wp_enqueue_script( 'ys_admin_scripts', get_stylesheet_directory_uri() . '/js/admin_scripts.js', array('jquery','jquery-uniform') );
+}
+add_action( 'admin_enqueue_scripts', 'ys_enqueue_admin_scripts' );
 
 // Our custom post type function
 function create_posttype() {
