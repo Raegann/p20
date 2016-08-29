@@ -15,6 +15,3 @@ msgstr ""
 
 msgid "Posts From"
 msgstr "Příspěvky od"
-
-msgid "Gallery"
-msgstr "Fotogalerie"

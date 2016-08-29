@@ -56,8 +56,8 @@ Template Name: Drag & Drop Page Builder
 
 $gal = foogallery_get_all_galleries();
             $args = array(
-                'width'  => '220%',
-                'height' => '220%',
+                'width'  => 235,
+                'height' => 156,
                 'crop'   => true,
             );
             

@@ -159,19 +159,20 @@ margin-right:0px;
 
 	}
 
-        
-        
-
 	
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 764px) {
  
-	#cs-header-style-three #cs-main-navigation{
+	#cs-main-navigation .cs-main-navigation{
 
-		float:left;
+		background-color:white;
+		text-align:center;
+		margin-bottom:20px;
+		
 
 	}
+<<<<<<< HEAD
 
         
         
@@ -188,6 +189,9 @@ margin-right:0px;
         margin-right: 33px !important;
         
     }
+=======
+       
+>>>>>>> origin/master
 
 
 }
@@ -199,7 +203,7 @@ margin-right:0px;
 }
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 425px) {
  
 	#cs-header-menu .cs-container{
 
@@ -210,8 +214,8 @@ margin-right:0px;
         
         .cs-main-content{
             
-            padding-left: 18px !important;
-            padding-right: 18px !important;
+            padding-left: 15px !important;
+            padding-right: 15px !important;
         }
         
         #tribe-events-content-wrapper{
@@ -313,8 +317,8 @@ margin-right:0px;
 	
 	.footer_menu > li+li {
 		
-		
-		padding-left: 5px;
+		border-left: 1px solid #D5D5D6;
+		padding-left: 15px;
 		
 	
 	}

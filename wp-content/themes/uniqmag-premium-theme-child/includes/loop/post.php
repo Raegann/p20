@@ -13,13 +13,18 @@
             $blogStyle = 7;
             $sidebar = uniqmag_different_themes_get_custom_option( get_cat_id( single_cat_title("",false) ), 'sidebar_select', false );
         }
+        else if(is_post_type_archive('foogallery'))
+        {
+            $blogStyle = 8;
+        }
 	else if(is_category()) {
 		$blogStyle = uniqmag_different_themes_get_custom_option( get_cat_id( single_cat_title("",false) ), 'blogStyle', false );
 		$sidebar = uniqmag_different_themes_get_custom_option( get_cat_id( single_cat_title("",false) ), 'sidebar_select', false );
 	} else if( is_tax() || is_tag() ) {
 		$blogStyle = uniqmag_different_themes_get_custom_option( get_queried_object()->term_id, 'blogStyle', false );
 		$sidebar = uniqmag_different_themes_get_custom_option( get_queried_object()->term_id, 'sidebar_select', false );
-	} else {
+	}
+        else {
 		$blogStyle = get_post_meta ( Different_Themes()->page_id(), "_".THEME_NAME."_blogStyle", true ); 	
 		$sidebar = get_post_meta( Different_Themes()->page_id(), "_".THEME_NAME.'_sidebar_select', true );
 	}
@@ -32,26 +37,11 @@
 
 
 	switch ($blogStyle) {
-		case '1':
-			$post_wrap_class = "cs-row";
-			break;
-		case '2':
-			$post_wrap_class = "cs-row";
-			break;
-		case '3':
+		case 3:
 			$post_wrap_class = "cs-post-block-layout-4";
 			break;
-		case '4':
+		default:
 			$post_wrap_class = "cs-row";
-			break;
-		case '5':
-			$post_wrap_class = "cs-row";
-			break;
-		case '6':
-			$post_wrap_class = "cs-row";
-			break;
-                case '7':
-                        $post_wrap_class = "cs-row";
 			break;
 	}
 
@@ -98,33 +88,20 @@
 
 
 		switch ($blogStyle) {
-			case '1':
+			case 1:
 				$post_class = "cs-col cs-col-12-of-12";
 				$postsInRow = 2;
 				break;
-			case '2':
+			case 2:
+                        case 6:
+                        case 7:
+                        case 8:
 				$post_class = "cs-col cs-col-6-of-12";
 				$postsInRow = 2;
 				break;
-			case '3':
+			default:
 				$post_class = "cs-post-item";
 				$postsInRow = false;
-				break;
-			case '4':
-				$post_class = "cs-post-item";
-				$postsInRow = 2;
-				break;
-			case '5':
-				$post_class = "cs-post-item";
-				$postsInRow = 2;
-				break;
-			case '6':
-				$post_class = "cs-col cs-col-6-of-12";
-				$postsInRow = 2;
-				break;
-                        case '7':
-				$post_class = "cs-col cs-col-6-of-12";
-				$postsInRow = 2;
 				break;
 		}
 
@@ -148,8 +125,8 @@
 
 ?>
 
-	<?php if($blogStyle=="1" || $blogStyle=="2") { ?>
-        
+	<?php if($blogStyle=="1" || $blogStyle=="2" || $blogStyle =="8") { ?>
+
         <div <?php post_class($post_class); ?> id="post-<?php the_ID(); ?>">
             <!-- Block layout 3 -->
             <div class="cs-post-block-layout-3">
@@ -218,10 +195,7 @@
                         </div>
                     </a>
                 </li>
-          
-            
-                
-                        
+
                         <?php if(get_post_type(get_the_ID()) === 'workingplaces') : ?>                       
                         <div class="workingplaces-company">                             
                                     <?php if(get_field('spolecnost', get_the_ID())) : ?>
@@ -372,9 +346,6 @@
                 </a>
             </div>
         </div>
-        
-
-
     <?php } elseif( $blogStyle == "4" ) { ?>
     	<div class="cs-col cs-col-6-of-12">
             <!-- Block layout 2 -->
@@ -560,7 +531,4 @@
 	<?php endif; ?>
 
 
-		</div>
-
-
-
+</div>
