@@ -58,10 +58,14 @@
 	                <?php
 	                	} 
 	                ?>
+                    
+                    
 	                
                     
                 </div>
-                <!--TODO: udělat zde tagy-->
+                
+                  
+                   <?php get_template_part(UNIQMAG_DIFFERENT_THEME_SINGLE."post-tags"); ?>
                      
                  
                 <?php if(get_post_type(get_the_ID()) === 'workingplaces') : ?>
@@ -118,7 +122,7 @@
 						?>
                                 <?php endif; ?>
 	                </div>
-	                <?php get_template_part(UNIQMAG_DIFFERENT_THEME_SINGLE."post-tags"); ?>
+	               
 
 	            </div>
 	        </article>

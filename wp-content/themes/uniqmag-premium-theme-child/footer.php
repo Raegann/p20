@@ -5,8 +5,8 @@
 		  <div class="cs-col cs-col-4-of-12">
                       <img class="logo" src="<?php bloginfo('stylesheet_directory');?>/images/erb.png" alt="erb">
 			<ul class="footer_menu">
-				<li><a href="">Mapa webu</a></li>
-				<li><a href="">Prohlášení o přístupnosti webu</a></li>
+				<li><a href="<?php echo site_url(); ?>/mapa-stranek/">Mapa webu</a></li>
+				<li><a href="<?php echo site_url(); ?>/prohlaseni-o-pristupnosti-webu/">Prohlášení o přístupnosti webu</a></li>
 			</ul>
 			  <p class="copyright">Copyright 2016 ÚMČ Praha 20</p>
  

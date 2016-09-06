@@ -90,12 +90,13 @@ class YS_Widget_Working_Places extends WP_Widget {
                             <?php if ( $show_date ) : ?>
 				<div class="post-date"><?php echo get_the_date(); ?></div>
                             <?php endif; ?>
+                                <span class="workingplaces-date"><?php echo get_the_date(); ?></span>
                                 <div class="workingplaces-title"><a href="<?php the_permalink(); ?>"><?php get_the_title() ? the_title() : the_ID(); ?></a></div>
 
                                 <?php if(get_field('spolecnost')) : ?>
                                     <?php echo get_field('spolecnost'); ?><br>
                                 <?php endif; ?>
-                                <span class="workingplaces-date"><?php echo get_the_date(); ?></span>
+                                
 
                             <?php if ( $show_cat && $categories && !empty($categories) ) : ?>
                                 <div class="cs-post-category-solid cs-clearfix">
@@ -112,7 +113,8 @@ class YS_Widget_Working_Places extends WP_Widget {
 			</li>
 		<?php endwhile; ?>
 		</ul>
-                  <a href="<?php echo get_post_type_archive_link( 'workingplaces' ); ?>">zobrazit všechny pozice</a>
+                  <a class="workingplaces-all" href="<?php echo get_post_type_archive_link( 'workingplaces' ); ?>">zobrazit všechny pozice</a>
+                  <div class="clear"></div>
 		<?php echo $args['after_widget']; ?>
 		<?php
 		// Reset the global $the_post as this query will have stomped on it

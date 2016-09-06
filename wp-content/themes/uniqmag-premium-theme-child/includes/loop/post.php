@@ -244,18 +244,10 @@
                                                             echo $my_excerpt; // Outputs the processed value to the page
                                                     ?>
                             
-                            <?php if( $df_post->compare( get_the_ID(), 'post_category' ) == "1" && $categories ) { ?>
-		                        <div class="cs-post-category-border cs-clearfix new-category">
-		                        	<?php 
-		                        		foreach($categories as $cat) {
-		                        			$category_color = $df_post->get_color($cat->term_id,"category", false);
-		                        	?>
-		                            	<a href="<?php echo esc_url(get_category_link($cat->term_id));?>" style="border-color:<?php echo esc_attr($category_color);?>">
-		                            		<?php echo esc_html(get_cat_name($cat->term_id));?>
-		                            	</a>
-		                            <?php } ?>
-		                        </div>
-		                    <?php } ?>
+                            
+  /* Kategorie */                          
+                            
+                            
                             
                          
                             
