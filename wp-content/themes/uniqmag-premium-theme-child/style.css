@@ -172,7 +172,7 @@ margin-right:0px;
 		
 
 	}
-<<<<<<< HEAD
+
 
         
         
@@ -186,12 +186,10 @@ margin-right:0px;
  
     .container-hpgallery li{
         
-        margin-right: 33px !important;
+        margin-right: 12px !important;
         
     }
-=======
-       
->>>>>>> origin/master
+
 
 
 }
@@ -1536,3 +1534,8 @@ aside > ul > li > a:hover{
     
 }
 
+.home .cs-post-meta{
+    
+    margin-top: 10px;
+    
+}
