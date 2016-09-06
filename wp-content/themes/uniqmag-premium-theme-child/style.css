@@ -1336,12 +1336,6 @@ header > .cs-post-category-solid > a:hover{
     color:#B61F24;
 }
 
-.tribe-events-sub-nav{
-    
-    display:none !important;
-    
-}
-
 .single-tribe_events .cs-page-title{
     
     display: none;
@@ -1500,12 +1494,14 @@ aside > ul > li > a:hover{
     
 }
 
-.workingplaces-all, .tribe-events-widget-link a{
+.workingplaces-all, .tribe-events-widget-link a, .widget_polls-widget > ul > li > a{
     
     display:block;
     float: right;
     font-weight: bold !important;
     color: #b61f24;
+    padding-bottom: 10px;
+    text-transform: lowercase;
   
     
 }
@@ -1523,4 +1519,20 @@ aside > ul > li > a:hover{
     
 }
 
+.tribe-events-widget-link{
+    
+    padding-bottom: 10px;
+}
+
+.single-foogallery .cs-post-meta-author{
+    
+    display: none;
+    
+}
+
+.home .cs-post-meta-author{
+    
+    display: none;
+    
+}
 
