@@ -1,4 +1,5 @@
 <?php
+define("UNIQMAG_CHILD_THEME_INCLUDES", "includes/");
 
 include_once get_stylesheet_directory() . '/includes/widgets/class-ys-widget-recent-posts.php';
 add_action( 'widgets_init', function(){
@@ -186,7 +187,7 @@ function uniqmag_child_different_themes_page_title() {
 			$title = get_the_title(get_the_ID());
 		} else {
                     $postType = get_queried_object();
-                    $postType_name = $postType->labels->singular_name;
+                    $postType_name = $postType->labels->name;
                     if(isset($postType_name) && $postType_name !== null && $postType_name != '') :
                         $title = esc_html__($postType_name,'uniqmag-child');
                     else :
@@ -198,3 +199,10 @@ function uniqmag_child_different_themes_page_title() {
 	}
 	echo esc_html(stripslashes($title));
 }
+
+function filter_events($posts)
+{
+    
+    return $posts;
+}
+add_filter('tribe_get_list_widget_events','filter_events');

@@ -1295,7 +1295,7 @@ header > .cs-post-category-solid > a:hover{
 .workingplaces-date{
     
     font-weight: normal;
-    color:black;
+    color:#666;
     font-size: 12px;
      
 }
@@ -1336,21 +1336,11 @@ header > .cs-post-category-solid > a:hover{
     color:#B61F24;
 }
 
-.tribe-events-sub-nav{
-    
-    display:none !important;
-    
-}
-
 .single-tribe_events .cs-page-title{
     
     display: none;
 }
 
-.post-type-archive-tribe_events .tribe-events-list-event-description{
-    
-    display:none;
-}
 
 .container{
     
@@ -1393,3 +1383,156 @@ footer .cs-row{
     
     display: none;
 }
+
+.foogallery-default a{
+    
+    float:left;
+    
+}
+
+
+.wsp-posts-list, .wsp-pages-list, .wsp-foogallerys-list, .wsp-tribe_eventss-list, .wsp-workingplacess-list{
+    
+    list-style-type: none;
+    
+}
+
+.cs-single-post-tags{
+    
+    margin-top:10px;
+    margin-left: -5px !important;
+
+   
+}
+
+.cs-single-post-tags span{
+    
+    background: none;
+}
+
+.cs-single-post-tags a{
+    
+    margin-right: 10px;
+    background: #8A8B8C;
+    color:white !important;
+    padding-left:5px;
+    padding-right:5px;
+}
+
+.tribe-bar-views-inner, #tribe-bar-views .tribe-bar-views-list .tribe-bar-views-option a{
+    
+    background: none;
+    
+}
+
+.tribe-events-calendar td.tribe-events-present div[id*=tribe-events-daynum-]{
+    
+    background: #F2AE03;
+    
+}
+
+#tribe-events-content a{
+    
+    color:black;
+}
+
+.tribe-bar-filters{
+    
+    display: none;
+}
+
+.single-tribe_events .tribe-events-event-meta{
+    
+    border:0px;
+    
+}
+
+.tribe-events-schedule h2{
+    
+    font-size:20px !important;
+    
+}
+
+.tribe-events-notices{
+    
+    background: none;
+    border-radius: 0px;
+    border: 1px solid #B0B0B0;
+    color: black;
+    
+}
+
+.single-foogallery .foogallery-container::before{
+    
+    display:none;
+    
+}
+
+.fbx-rounded .fbx-inner, .fbx-rounded .fbx-close, .fbx-rounded .fbx-next, .fbx-rounded .fbx-prev{
+    
+    border-radius: 0px;
+    
+    
+}
+
+.foogallery-default.spacing-width-5 a{
+    
+    margin-left: 8px !important;
+    margin-right: 0px !important;
+    
+}
+
+.home .cs-post-meta{
+    
+    margin-bottom: 10px;
+    
+}
+
+aside > ul > li > a:hover{
+    
+    color: #8A8B8C;
+    
+}
+
+.workingplaces-all, .tribe-events-widget-link a, .widget_polls-widget > ul > li > a{
+    
+    display:block;
+    float: right;
+    font-weight: bold !important;
+    color: #b61f24;
+    padding-bottom: 10px;
+    text-transform: lowercase;
+  
+    
+}
+
+
+.cs-post-item .cs-post-inner h3 a{
+    
+    font-size: 14px;
+    
+}
+
+.cs-post-category-empty a{
+    
+    font-size: 11px;
+    
+}
+
+.tribe-events-widget-link{
+    
+    padding-bottom: 10px;
+}
+
+.single-foogallery .cs-post-meta-author{
+    
+    display: none;
+    
+}
+
+.home .cs-post-meta-author{
+    
+    display: none;
+    
+}
+

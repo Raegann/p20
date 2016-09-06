@@ -57,9 +57,10 @@
                             echo $count_posts->publish;
                     ?>
            </div>
-           <?php endif; ?>  
+           <?php endif; ?>
+           <?php if(get_post_type(get_the_ID()) === 'workingplaces') : ?>
             <div class="cs-post-category-solid_1 cs-post-category-solid">  
-                <?php if(get_post_type(get_the_ID()) === 'workingplaces') : ?>
+                
                 <a href="<?php echo get_post_type_archive_link( 'workingplaces' ); ?>">VŠE</a>
                 <?php  $getslugid = wp_get_post_terms( $post->ID, 'profession' ); 
                             foreach( $getslugid as $thisslug ) {
@@ -72,9 +73,9 @@
 
                 }?>
                 
-              <?php endif; ?>  
-           </div>    
-           
+              
+            </div>    
+           <?php endif; ?>  
        </div>
 
 
@@ -244,18 +245,10 @@
                                                             echo $my_excerpt; // Outputs the processed value to the page
                                                     ?>
                             
-                            <?php if( $df_post->compare( get_the_ID(), 'post_category' ) == "1" && $categories ) { ?>
-		                        <div class="cs-post-category-border cs-clearfix new-category">
-		                        	<?php 
-		                        		foreach($categories as $cat) {
-		                        			$category_color = $df_post->get_color($cat->term_id,"category", false);
-		                        	?>
-		                            	<a href="<?php echo esc_url(get_category_link($cat->term_id));?>" style="border-color:<?php echo esc_attr($category_color);?>">
-		                            		<?php echo esc_html(get_cat_name($cat->term_id));?>
-		                            	</a>
-		                            <?php } ?>
-		                        </div>
-		                    <?php } ?>
+                            
+  /* Kategorie */                          
+                            
+                            
                             
                          
                             

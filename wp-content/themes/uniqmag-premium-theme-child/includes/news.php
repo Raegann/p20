@@ -1,4 +1,5 @@
 <?php
+
 	if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 	wp_reset_postdata();
 	if(is_category()) {
