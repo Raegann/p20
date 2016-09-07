@@ -70,7 +70,7 @@
                     <?php } ?>
                <div class="cs-post-inner">
                         <h3><a href="<?php the_permalink();?>"><?php the_title();?></a></h3>
-                        
+                        <p>test</p>
                         <?php
 
                                 $gal = foogallery_get_all_galleries();
@@ -114,7 +114,7 @@
                             	</span>
                             <?php } ?>
                              <?php 
-			                	if( $df_post->compare( get_the_ID(), 'post_author' ) == "1" ) { 
+			                	if( $df_post->compare( get_the_ID(), 'postAuthor' ) == "1" ) { 
 			                ?>
 			                	<span class="cs-post-meta-author">
 			                		<?php echo get_the_author(); ?>
