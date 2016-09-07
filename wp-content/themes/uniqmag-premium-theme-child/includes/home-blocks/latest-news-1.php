@@ -156,6 +156,7 @@
                                     <?php the_title();?>
                                 </a>
                             </h3>
+                           
                             
                                <?php if( $df_post->compare( get_the_ID(), 'post_category' ) == "1" && $categories ) { ?>
                                 <div class="cs-post-category-empty cs-clearfix">
