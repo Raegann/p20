@@ -103,7 +103,7 @@
                                     </span>
                                 <?php } ?>
                                 <?php 
-                                    if( $df_post->compare( get_the_ID(), 'post_author' ) == "1" ) { 
+                                    if( $df_post->compare( get_the_ID(), 'postAuthor' ) == "1" ) { 
                                 ?>
                                     <span class="cs-post-meta-author">
                                         <?php echo get_the_author(); ?>
@@ -178,7 +178,7 @@
                                     </span>
                                 <?php } ?>
                                 <?php 
-                                    if( $df_post->compare( get_the_ID(), 'post_author' ) == "1" ) { 
+                                    if( $df_post->compare( get_the_ID(), 'postAuthor' ) == "1" ) { 
                                 ?>
                                     <span class="cs-post-meta-author">
                                         <?php echo get_the_author(); ?>
