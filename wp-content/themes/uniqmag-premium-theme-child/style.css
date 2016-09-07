@@ -1585,3 +1585,35 @@ aside > ul > li > a:hover{
     border:0px;
     
 }
+
+.category .cs-single-post-tags a::before{
+    
+    content: "";
+    
+}
+
+.cs-single-post-tags{
+    
+    margin-bottom: 5px;
+}
+
+.cs-single-post-tags span{
+    
+    padding: 0px;
+}
+
+.cs-widget_latest_posts .cs-post-item .cs-post-inner h3{
+    
+    margin-top: 0px;
+}
+
+.cs-widget_latest_posts .cs-post-item{
+    
+    margin-bottom: 0px;
+}
+
+.cs-post-grid-layout .cs-post-meta-date{
+    
+    color: white;
+    
+}
