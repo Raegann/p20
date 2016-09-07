@@ -159,14 +159,8 @@
                             
                                <?php if( $df_post->compare( get_the_ID(), 'post_category' ) == "1" && $categories ) { ?>
                                 <div class="cs-post-category-empty cs-clearfix">
-                                    <?php 
-                                        foreach($categories as $cat) {
-                                            $category_color = $df_post->get_color($cat->term_id,"category", false);
-                                    ?>
-                                        <a href="<?php echo esc_url(get_category_link($cat->term_id));?>" style="color:<?php echo esc_attr($category_color);?>">
-                                            <?php echo esc_html(get_cat_name($cat->term_id));?>
-                                        </a>
-                                    <?php } ?>
+                                    <?php get_template_part(UNIQMAG_DIFFERENT_THEME_INCLUDES . '/single/post-tags'); ?>
+
                                 </div>
                             <?php } ?>
                             

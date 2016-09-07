@@ -1,6 +1,6 @@
 <?php
 	if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
-	wp_reset_postdata();
+	//wp_reset_postdata();
     
     //get post settings
     $df_post = Different_Themes()->posts;
