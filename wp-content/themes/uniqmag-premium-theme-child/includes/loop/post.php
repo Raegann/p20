@@ -160,7 +160,7 @@
                     <?php } ?>
                <div class="cs-post-inner">
                         <h3><a href="<?php the_permalink();?>"><?php the_title();?></a></h3>
-                        
+                         <?php $g = null; ?>
                         <?php if(get_post_type(get_the_ID()) === 'foogallery') : ?>
                         <?php
 
@@ -183,7 +183,7 @@
                                 $src = apply_filters('foogallery_attachment_resize_thumbnail', $g->featured_image_src('full'), $args, $g);
                                 $tmp += 1;
                                 ?>
-                        <li><?php endif; ?>  
+                        <li>
                     <a href="<?php echo get_the_permalink($g->ID) ?>">
                         <img src="<?php echo $src ?>"/>
 
@@ -196,7 +196,7 @@
                         </div>
                     </a>
                 </li>
-
+                <?php endif; ?>
                         <?php if(get_post_type(get_the_ID()) === 'workingplaces') : ?>                       
                         <div class="workingplaces-company">                             
                                     <?php if(get_field('spolecnost', get_the_ID())) : ?>
@@ -221,14 +221,16 @@
                             </div>
                         <?php endif; ?>
                         <div class="cs-post-meta cs-clearfix">
-			               
+			    <?php            
+                             /* Include post-tags.php */
+                            get_template_part(UNIQMAG_DIFFERENT_THEME_INCLUDES . '/single/post-tags'); ?>
 			                <?php if( $df_post->compare( get_the_ID(), 'post_date' ) == "1" ) { ?>
                             	<span class="cs-post-meta-date">
                             		<?php the_time(get_option('date_format'));?>
-                            	</span>
+                                </span><br>
                             <?php } ?>
                              <?php 
-			                	if( $df_post->compare( get_the_ID(), 'post_author' ) == "1" ) { 
+			                	if( $df_post->compare( get_the_ID(), 'postAuthor' ) == "1" ) { 
 			                ?>
 			                	<span class="cs-post-meta-author">
 			                		<?php echo get_the_author(); ?>
@@ -236,6 +238,7 @@
 			                <?php
 			                	} 
 			                ?>
+                                                          
                             
                                                     <?php
                                                             $my_excerpt = get_the_excerpt();
@@ -246,7 +249,7 @@
                                                     ?>
                             
                             
-  /* Kategorie */                          
+                         
                             
                             
                             
@@ -311,7 +314,7 @@
                 
                 <div class="cs-post-meta cs-clearfix">
 	                <?php 
-	                	if( $df_post->compare( get_the_ID(), 'post_author' ) == "1" ) { 
+	                	if( $df_post->compare( get_the_ID(), 'postAuthor' ) == "1" ) { 
 	                ?>
 	                	<span class="cs-post-meta-author">
 	                		<?php echo get_the_author();?>
@@ -371,7 +374,7 @@
 
 		                <div class="cs-post-meta cs-clearfix">
 			                <?php 
-			                	if( $df_post->compare( get_the_ID(), 'post_author' ) == "1" ) { 
+			                	if( $df_post->compare( get_the_ID(), 'postAuthor' ) == "1" ) { 
 			                ?>
 			                	<span class="cs-post-meta-author">
 			                		<?php echo get_the_author();?>
@@ -430,7 +433,7 @@
                         </h3>
                         <div class="cs-post-meta cs-clearfix">
 			                <?php 
-			                	if( $df_post->compare( get_the_ID(), 'post_author' ) == "1" ) { 
+			                	if( $df_post->compare( get_the_ID(), 'postAuthor' ) == "1" ) { 
 			                ?>
 			                	<span class="cs-post-meta-author">
 			                		<?php echo get_the_author(); ?>
@@ -479,7 +482,7 @@
 	                    </h3>
 	                    <div class="cs-post-meta cs-clearfix">
 			                <?php 
-			                	if( $df_post->compare( get_the_ID(), 'post_author' ) == "1" ) { 
+			                	if( $df_post->compare( get_the_ID(), 'postAuthor' ) == "1" ) { 
 			                ?>
 			                	<span class="cs-post-meta-author">
 			                		<?php echo get_the_author(); ?>
