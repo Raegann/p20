@@ -222,10 +222,12 @@
                         <?php endif; ?>
                         <div class="cs-post-meta cs-clearfix">
 			               
+                             /* Include post-tags.php */
+                            
 			                <?php if( $df_post->compare( get_the_ID(), 'post_date' ) == "1" ) { ?>
                             	<span class="cs-post-meta-date">
                             		<?php the_time(get_option('date_format'));?>
-                            	</span>
+                                </span><br>
                             <?php } ?>
                              <?php 
 			                	if( $df_post->compare( get_the_ID(), 'post_author' ) == "1" ) { 
@@ -236,6 +238,7 @@
 			                <?php
 			                	} 
 			                ?>
+                                                          
                             
                                                     <?php
                                                             $my_excerpt = get_the_excerpt();
@@ -246,7 +249,7 @@
                                                     ?>
                             
                             
-  /* Kategorie */                          
+                         
                             
                             
                             

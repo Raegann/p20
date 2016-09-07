@@ -102,7 +102,7 @@
                                 <?php else : ?>
 						<?php wp_reset_postdata();?>		
 						<?php
-							add_filter('the_content', 'BigFirstChar');	
+								
 							the_content();
 						?>	
 						<?php 

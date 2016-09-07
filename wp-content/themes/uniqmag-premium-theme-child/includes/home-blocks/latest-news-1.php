@@ -89,7 +89,7 @@
                                 </a>
                             </div>
                         <?php } ?>
-                        <div class="cs-post-inner">                          
+                        <div class="cs-post-inner">                    
                            
                             <h3>
                                 <a href="<?php the_permalink();?>">
