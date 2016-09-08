@@ -37,7 +37,7 @@ function create_posttype() {
 	// CPT Options
 		array(
 			'labels' => array(
-				'name' => __( 'Pracovní místa' ),
+				'name' => __( 'Nabídka volných pracovních míst' ),
 				'singular_name' => __( 'Pracovní místa' )
 			),
 			'public' => true,
