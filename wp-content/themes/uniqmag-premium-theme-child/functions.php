@@ -238,3 +238,9 @@ function render_foogallery_shortcode( $atts ) {
         return $output_string;
 }
 add_shortcode( foogallery_gallery_shortcode_tag(), array( $this, 'render_foogallery_shortcode' ) );
+
+
+function delete_post_type(){
+    unregister_post_type( 'gallery' );
+}
+add_action('init','delete_post_type');
