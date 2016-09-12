@@ -159,7 +159,6 @@
 }
 
 @media only screen and (max-width: 425px) {
-    
         .container-hpgallery li{
 
             width: 300px !important;
@@ -558,12 +557,12 @@ header > .cs-post-category-solid > a:hover {
 	text-transform: uppercase;
 }
 
-.category .cs-post-block-layout-3 .cs-post-item .cs-post-thumb, .tag .cs-post-block-layout-3 .cs-post-item .cs-post-thumb{
+
+.category .cs-post-block-layout-3 .cs-post-item .cs-post-thumb {
 	width: 40%;
 	float: left;
 	margin-right: 20px;
 }
-
 .category .cs-post-item .cs-post-inner h3, .tag .cs-post-item .cs-post-inner h3{
 	font-size: 20px;
 }
@@ -1232,5 +1231,634 @@ aside > ul > li > a:hover {
     
     margin-top: -20px !important;
     margin-left: -10px;
-    
+}
+.category .cs-post-item .cs-post-inner h3 {
+	font-size: 20px;
+}
+
+.category .cs-post-category-border:first-child {
+	display: none;
+}
+
+.category .cs-post-category-border a {
+	color: white !important;
+	background: #8a8b8c !important;
+	margin-top: 35px;
+}
+
+.category .cs-post-category-border a:hover {
+	color: white !important;
+	background: #8a8b8c !important;
+}
+
+.category .cs-post-category-border a::before {
+	display: none;
+}
+
+.category .cs-post-meta span {
+	font-size: 12px;
+	color: #666;
+}
+
+.category .cs-post-meta-author {
+	display: none;
+}
+
+.cs-post-meta-author a:hover {
+	text-decoration: none;
+	color: #58595B;
+}
+
+.widget-workingplaces li {
+	margin-bottom: 10px;
+}
+
+.workingplaces-date {
+	font-size: 10px;
+}
+
+.workingplaces-title {
+	display: block;
+	width: 100%;
+}
+
+.workingplaces-title a {
+	font-size: 14px;
+	color: black;
+	font-weight: bold;
+}
+
+.workingplaces-title a:hover {
+	color: black;
+}
+
+.action-date {
+	font-size: 18px;
+	color: #B61F24;
+}
+
+.single-action .cs-post-meta {
+	display: none;
+}
+
+.single-action .entry_title {
+	font-size: 30px;
+}
+
+.single-post .action-date {
+	display: none;
+}
+
+.single-workingplaces .action-date {
+	display: none;
+}
+
+.single-workingplaces .cs-post-meta {
+	display: none;
+}
+
+.workingplaces-company {
+	font-size: 15px;
+	color: #B61F24;
+	font-weight: normal !important;
+}
+
+.slider {
+	margin-bottom: 0px;
+	padding: 0px;
+	padding-top: 0px !important;
+}
+
+.container-hpgallery .cs-row {
+	margin-bottom: 40px !important;
+	margin-left: 20px !important;
+}
+
+.container-hpgallery h2 {
+	color: #b61f24 !important;
+	border-left-color: #b61f24;
+	font-weight: bold;
+	font-size: 18px;
+	text-transform: uppercase;
+	border-left-color: #b61f24 !important;
+	border-left-style: solid;
+	padding: 3px 0 3px 10px;
+}
+
+.container-hpgallery li {
+	display: inline;
+	float: left;
+	margin-right: 12px;
+	margin-top: 20px;
+}
+
+.name {
+	font-size: 15px;
+	font-weight: bold;
+	color: black;
+	display: block;
+	padding-top: 10px !important;
+}
+
+.wpp-list li {
+	margin-top: 14px;
+}
+
+.wpp-date {
+	font-size: 12px;
+	font-weight: normal;
+}
+
+.wpp-category {
+	font-size: 11px;
+	background: #8A8B8C;
+	padding: 4px;
+	color: white;
+}
+
+.wpp-category a {
+	color: white;
+	text-transform: uppercase;
+}
+
+.cs-post-category-empty a {
+	margin-right: 5px;
+	font-size: 10px;
+	padding: 4px;
+}
+
+.cs-post-category-empty a:after {
+	display: none;
+}
+
+.category .cs-col-12-of-12 {
+	margin-bottom: -40px;
+}
+
+.cs-prev-post span {
+	display: none;
+}
+
+.cs-next-post span {
+	display: none;
+}
+
+.widget_poll_wid h3 {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.poll_list input {
+	margin-right: 10px !important;
+	margin-top: 7px !important;
+}
+
+#poll_ans_1 {
+	text-transform: lowercase;
+}
+
+.poll_wrap input[type="submit"] {
+	margin-top: 15px !important;
+	background-color: #8A8B8C;
+}
+
+.poll_wrap a {
+	margin-top: 5px !important;
+	text-transform: lowercase;
+}
+
+.poll_wrap a:hover {
+	color: black;
+}
+
+.poll_wrap label {
+	width: 100%;
+}
+
+#poll_ans_1 a {
+	color: black;
+	margin-top: 5px;
+	display: block;
+}
+
+.cs-prev-post a:hover {
+	color: black;
+}
+
+.cs-post-block-title a:hover {
+	text-decoration: none;
+}
+
+.container-hpgallery a:hover {
+	text-decoration: none;
+}
+
+.single-workingplaces .cs-single-post-tags {
+	display: none;
+}
+
+.single-workingplaces .cs-single-post-tags span {
+	display: none;
+}
+
+.post-type-archive-workingplaces .cs-post-meta-date {}
+
+.post-type-archive-workingplaces .cs-post-meta-author {
+	display: none;
+}
+
+.post-type-archive-workingplaces .cs-post-inner h3 {
+	display: block;
+	font-size: 20px;
+}
+
+.post-type-archive-workingplaces .workingplaces-company {
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.post-type-archive-workingplaces .cs-post-meta {
+	display: none;
+}
+
+.tax-profession .cs-post-meta-date {
+	display: none;
+}
+
+.tax-profession .cs-post-meta-author {
+	display: none;
+}
+
+.tax-profession .cs-post-inner h3 {
+	display: block;
+	font-size: 20px;
+}
+
+.tax-profession .workingplaces-company {
+	font-weight: bold;
+}
+
+.post-type-archive-workingplaces .cs-post-meta {
+	display: none;
+}
+
+.post-type-archive-action .cs-post-meta-author {
+	display: none;
+}
+
+.post-type-archive-action .cs-post-meta-date {
+	display: none;
+}
+
+.post-type-archive-action .cs-post-inner h3 {
+	display: block;
+	font-size: 20px;
+}
+
+.post-type-archive-action .workingplaces-company {
+	font-weight: bold;
+}
+
+.post-type-archive-action .cs-page-title {
+	display: none;
+}
+
+.post-type-archive-workingplaces .cs-post-category-solid_1 {
+	margin-left: 10px;
+}
+
+.post-type-archive-workingplaces hr {
+	border: 0;
+	height: 1px;
+	background: #333;
+	background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+.post-type-archive-foogallery hr {
+	border: 0;
+	height: 1px;
+	background: #333;
+	background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+.post-type-archive-foogallery .cs-post-meta {
+	display: none;
+}
+
+.post-type-archive-foogallery .cs-post-inner li {
+	list-style-type: none;
+	margin-top: 30px;
+}
+
+.post-type-archive-foogallery .cs-post-inner h3 {
+	font-size: 22px;
+}
+
+.tax-profession .cs-post-category-solid_1 {
+	margin-left: 10px;
+}
+
+.tax-profession .cs-post-category-solid_1 a {
+	margin-right: 10px;
+}
+
+.post-type-archive-tribe_events .cs-page-title {
+	visibility: hidden;
+}
+
+.post-type-archive-workingplaces .cs-post-category-solid a {
+	margin-right: 10px;
+}
+
+.post-type-archive-workingplaces .cs-post-block-layout-3 {
+	margin-bottom: 10px !important;
+}
+
+.tribe-events-cal-links {
+	display: none !important;
+}
+
+.tribe-events-month .tribe-events-button {
+	display: none !important;
+}
+
+.tribe-event-title {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.tribe-event-title a {
+	color: black;
+}
+
+.tribe-list-widget {
+	margin-left: -20px !important;
+}
+
+.tribe-list-widget li {
+	margin-bottom: 7px !important;
+}
+
+.tribe-events-widget-link a {
+	font-size: 14px !important;
+	font-weight: normal !important;
+}
+
+.tribe-events-widget-link {
+	text-transform: lowercase;
+}
+
+.tribe-events-back {
+	text-transform: lowercase;
+}
+
+.tribe-bar-date-filter {
+	visibility: hidden;
+}
+
+.tribe-event-title {
+	margin-bottom: -3px;
+}
+
+.tribe-events-page-title {
+	text-align: left !important;
+}
+
+.post-type-archive-tribe_events .cs-page-title {
+	display: none;
+}
+
+.workingplaces-date {
+	font-weight: normal;
+	color: #666;
+	font-size: 12px;
+}
+
+.workingplaces-count {
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+
+.workingplaces-back {
+	margin-left: 10px;
+}
+
+.tax-profession hr {
+	border: 0;
+	height: 1px;
+	background: #333;
+	background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+.tribe-events-button {
+	display: none !important;
+}
+
+.tribe-event-url {
+	color: #B61F24;
+}
+
+.single-tribe_events .cs-page-title {
+	display: none;
+}
+
+.container {
+	background: #58595B;
+}
+
+footer .cs-row {
+	background: #58595B;
+}
+
+.wp-polls p {
+	text-align: left !important;
+}
+
+.wp-polls-ul {
+	margin-left: 0px;
+}
+
+.Buttons {
+	margin-top: 10px !important;
+	background: #8A8B8C !important;
+}
+
+.widget_huge_it_widget {
+	padding: 0px !important;
+}
+
+.single-foogallery .cs-single-post-controls {
+	display: none;
+}
+
+.cs-single-post-controls {
+	display: none;
+}
+
+.foogallery-default a {
+	float: left;
+}
+
+.wsp-posts-list,
+.wsp-pages-list,
+.wsp-foogallerys-list,
+.wsp-tribe_eventss-list,
+.wsp-workingplacess-list {
+	list-style-type: none;
+}
+
+.cs-single-post-tags {
+	margin-top: 10px;
+}
+
+.cs-single-post-tags span {
+	background: none;
+}
+
+.cs-single-post-tags a {
+	margin-right: 10px;
+	background: #8A8B8C;
+	color: white !important;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.tribe-bar-views-inner,
+#tribe-bar-views .tribe-bar-views-list .tribe-bar-views-option a {
+	background: none;
+}
+
+.tribe-events-calendar td.tribe-events-present div[id*=tribe-events-daynum-] {
+	background: #F2AE03;
+}
+
+#tribe-events-content a {
+	color: black;
+}
+
+.tribe-bar-filters {
+	display: none;
+}
+
+.single-tribe_events .tribe-events-event-meta {
+	border: 0px;
+}
+
+.tribe-events-schedule h2 {
+	font-size: 20px !important;
+}
+
+.tribe-events-notices {
+	background: none;
+	border-radius: 0px;
+	border: 1px solid #B0B0B0;
+	color: black;
+}
+
+.single-foogallery .foogallery-container::before {
+	display: none;
+}
+
+.fbx-rounded .fbx-inner,
+.fbx-rounded .fbx-close,
+.fbx-rounded .fbx-next,
+.fbx-rounded .fbx-prev {
+	border-radius: 0px;
+}
+
+.foogallery-default.spacing-width-5 a {
+	margin-left: 8px !important;
+	margin-right: 0px !important;
+}
+
+.home .cs-post-meta {
+	margin-bottom: 10px;
+}
+
+aside > ul > li > a:hover {
+	color: #8A8B8C;
+}
+
+.workingplaces-all,
+.tribe-events-widget-link a,
+.widget_polls-widget > ul > li > a {
+	display: block;
+	float: right;
+	font-weight: bold !important;
+	color: #b61f24;
+	padding-bottom: 10px;
+	text-transform: lowercase;
+}
+
+.cs-post-item .cs-post-inner h3 a {
+	font-size: 14px;
+}
+
+.cs-post-category-empty a {
+	font-size: 11px;
+}
+
+.tribe-events-widget-link {
+	padding-bottom: 10px;
+}
+
+.single-foogallery .cs-post-meta-author {
+	display: none;
+}
+
+.home .cs-post-meta-author {
+	display: none;
+}
+
+.home .cs-post-meta {
+	margin-top: 10px;
+}
+
+#cs-header-style-three .cs-toggle-main-navigation {
+	color: #8A181B;
+}
+
+.category .cs-post-meta {
+	font-size: 13px;
+}
+
+.cs-post-block-layout-2 .cs-post-item .cs-post-inner {
+	overflow: visible;
+}
+
+.cs-post-meta-date {
+	color: #666;
+	font-size: 12px;
+}
+
+.single-tribe_events .tribe-events-schedule {
+	border: 0px;
+}
+
+.category .cs-single-post-tags a::before {
+	content: "";
+}
+
+.cs-single-post-tags {
+	margin-bottom: 5px;
+}
+
+.cs-single-post-tags span {
+	padding: 0px;
+}
+
+.cs-widget_latest_posts .cs-post-item .cs-post-inner h3 {
+	margin-top: 0px;
+}
+
+.cs-widget_latest_posts .cs-post-item {
+	margin-bottom: 0px;
+}
+
+.cs-post-grid-layout .cs-post-meta-date {
+	color: white;
+}
+
+.tax-profession .cs-post-meta {
+	display: none !important;
 }
