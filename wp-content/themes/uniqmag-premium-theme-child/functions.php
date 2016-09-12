@@ -206,3 +206,9 @@ function filter_events($posts)
     return $posts;
 }
 add_filter('tribe_get_list_widget_events','filter_events');
+
+
+function delete_post_type(){
+    unregister_post_type( 'gallery' );
+}
+add_action('init','delete_post_type');
