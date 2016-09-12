@@ -37,7 +37,7 @@ function create_posttype() {
 	// CPT Options
 		array(
 			'labels' => array(
-				'name' => __( 'Pracovní místa' ),
+				'name' => __( 'Nabídka volných pracovních míst' ),
 				'singular_name' => __( 'Pracovní místa' )
 			),
 			'public' => true,
@@ -206,3 +206,35 @@ function filter_events($posts)
     return $posts;
 }
 add_filter('tribe_get_list_widget_events','filter_events');
+
+
+function check_gallery_before_print($args){
+    $id = $args['id'];
+    if(get_post_status( $id ) != 'publish')
+    {
+        $args['id'] = 0;
+    }
+    return $args;
+}
+add_filter('foogallery_shortcode_atts','check_gallery_before_print');
+
+function render_foogallery_shortcode( $atts ) {
+        $args = wp_parse_args( $atts, array(
+                'id'      => 0,
+                'gallery' => '',
+        ) );
+
+        $args = apply_filters( 'foogallery_shortcode_atts', $args );
+
+        //create new instance of template engine
+        $engine = new FooGallery_Template_Loader();
+
+        ob_start();
+
+        $engine->render_template( $args );
+
+        $output_string = ob_get_contents();
+        ob_end_clean();
+        return $output_string;
+}
+add_shortcode( foogallery_gallery_shortcode_tag(), array( $this, 'render_foogallery_shortcode' ) );

@@ -56,7 +56,6 @@
 }
 
 #foobox-free-settings-main {
-	min-width: 800px;
 	padding: 0;
 	margin: 0;
 }
@@ -124,23 +123,13 @@ ul.foobox_features.single_column li {
 }
 
 @media only screen and (max-width: 500px) {
-	.foobox-admin-notice-wrapper .foobox-admin-notice {
-		line-height: 1em;
-	}
-
-	.foobox-admin-notice-wrapper .foobox-admin-notice h3 {
-		visibility: hidden;
-		margin: 0;
-		line-height: 0.4em;
-	}
-
 	.foobox-free-settings-wrapper .foobox-free-settings-sidebar {
 		position: relative;
 		padding: 0;
 	}
 
 	div.demo-gallery {
-		width: 450px;
+		width: 100%;
 	}
 
 	div.demo-gallery img {

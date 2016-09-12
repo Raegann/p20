@@ -3,7 +3,7 @@
 Plugin Name: FooBox Free Image Lightbox
 Plugin URI: http://fooplugins.com/plugins/foobox/
 Description: The best responsive image lightbox for WordPress.
-Version: 1.0.11
+Version: 1.0.14
 Author: FooPlugins
 Author URI: http://fooplugins.com
 License: GPL2
@@ -21,7 +21,7 @@ if (!class_exists('Foobox_Free')) {
 	define( 'FOOBOXFREE_PATH', plugin_dir_path( __FILE__ ));
 	define( 'FOOBOXFREE_URL', plugin_dir_url( __FILE__ ));
 	define( 'FOOBOXFREE_FILE', __FILE__ );
-	define( 'FOOBOXFREE_VERSION', '1.0.11' );
+	define( 'FOOBOXFREE_VERSION', '1.0.14' );
 	define( 'FOOBOXFREE_ACTIVATION_REDIRECT_TRANSIENT_KEY', '_fooboxfree_activation_redirect' );
 
 	// Includes
@@ -245,8 +245,10 @@ if (!class_exists('Foobox_Free')) {
 							-webkit-border-radius: 10px;
 							-moz-border-radius: 10px;
 							border-radius: 10px;
-							line-height: 0.8em;
 							padding:5px;
+						}
+						.foobox-admin-notice h3 {
+							margin: 0 0 1em 0;
 						}
 						.foobox-admin-notice:before {
 							content: "";
@@ -290,14 +292,28 @@ if (!class_exists('Foobox_Free')) {
 							outline: 0;
 							box-shadow: none !important;
 						}
+
+						@media only screen and (max-width: 500px) {
+							.foobox-admin-notice-wrapper .foobox-admin-notice {
+								line-height: 1em;
+							}
+
+							.foobox-admin-notice-wrapper .foobox-admin-notice h3 {
+								visibility: hidden;
+								display: none;
+								margin: 0;
+								line-height: 0.4em;
+							}
+						}
+
+						body.mobile .foobox-admin-notice-wrapper {
+							display: none;
+						}
 					</style>
 					<div class="foobox-admin-notice-wrapper">
 					<div class="foobox-admin-notice-start"></div>
 					<div class="foobox-admin-notice">
-						<?php printf( __('Thanks for using %s, get 35%% off the PRO version by using the coupon %s', 'foobox-image-lightbox'), '<strong>FooBox</strong>', '<strong><a target="_blank" href="http://fooplugins.com/plugins/foobox/?utm_source=fooboxfreeplugin&utm_medium=fooboxfreeprolink&utm_campaign=foobox_free_admin_notice">FOOBOXPRO35</a></strong>' ); ?>
-						<br />
-
-						<h3><?php _e('Would you like to create image and video galleries easier than ever before?', 'foobox-image-lightbox' ); ?></h3>
+						<h3><?php _e('Awesome! Now you can easily create image and video galleries...', 'foobox-image-lightbox' ); ?></h3>
 
 						<?php printf( __('Try our free %s plugin and our premium %s extension, which both work beautifully with FooBox!', 'foobox-image-lightbox' ),
 							'<strong><a target="_blank" href="http://foo.gallery?utm_source=fooboxfreeplugin&utm_medium=fooboxfreeprolink&utm_campaign=foobox_free_admin_notice">FooGallery</a></strong>',

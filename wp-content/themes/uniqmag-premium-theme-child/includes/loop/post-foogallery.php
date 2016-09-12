@@ -70,7 +70,14 @@
                     <?php } ?>
                <div class="cs-post-inner">
                         <h3><a href="<?php the_permalink();?>"><?php the_title();?></a></h3>
+<<<<<<< HEAD
+                        
+                        <?php the_date(); ?>
+                        
+                       
+=======
                         <p>test</p>
+>>>>>>> origin/master
                         <?php
 
                                 $gal = foogallery_get_all_galleries();

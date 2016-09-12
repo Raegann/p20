@@ -49,15 +49,7 @@
 	?>
 
        <div class="<?php echo esc_attr($post_wrap_class); ?>">
-           <?php if(get_post_type(get_the_ID()) === 'workingplaces') : ?>
-           <div class="workingplaces-count">
-                    Celkový počet nabídek:
-                    <?php
-                            $count_posts = wp_count_posts('workingplaces');
-                            echo $count_posts->publish;
-                    ?>
-           </div>
-           <?php endif; ?>
+           
            <?php if(get_post_type(get_the_ID()) === 'workingplaces') : ?>
             <div class="cs-post-category-solid_1 cs-post-category-solid">  
                 
@@ -76,10 +68,23 @@
               
             </div>    
            <?php endif; ?>  
+          
+        
        </div>
+
+       
 
 
        <div class="<?php echo esc_attr($post_wrap_class); ?>">
+           
+          <?php if(get_post_type(get_the_ID()) === 'workingplaces') : ?>
+           <div class="workingplaces-count">
+                    Celkový počet nabídek:
+                    <?php
+                        echo $wp_query->post_count;
+                    ?>
+           </div>
+           <?php endif; ?>
            
                                         
 
@@ -221,7 +226,6 @@
                             </div>
                         <?php endif; ?>
                         <div class="cs-post-meta cs-clearfix">
-			    <?php get_template_part(UNIQMAG_DIFFERENT_THEME_INCLUDES . '/single/post-tags'); ?>
 
 			                <?php if( $df_post->compare( get_the_ID(), 'post_date' ) == "1" ) { ?>
                             	<span class="cs-post-meta-date">
