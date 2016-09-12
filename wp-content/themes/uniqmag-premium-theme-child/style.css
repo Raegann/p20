@@ -159,6 +159,13 @@
 }
 
 @media only screen and (max-width: 425px) {
+    
+        .container-hpgallery li{
+
+            width: 300px !important;
+
+        }
+    
 	#cs-main-navigation ul {
 		margin-right: 0px !important;
 	}
@@ -402,7 +409,7 @@ aside {
 }
 
 .post-date {
-	font-size: 11px;
+	font-size: 12px;
 }
 
 .cs-post-category-solid a {
@@ -452,6 +459,7 @@ aside {
 	font-size: 21px;
 	font-weight: bold;
 	color: black;
+        line-height: 35px;
 }
 
 .cs-single-post-paragraph {
@@ -551,43 +559,50 @@ header > .cs-post-category-solid > a:hover {
 	text-transform: uppercase;
 }
 
-.category .cs-post-block-layout-3 .cs-post-item .cs-post-thumb {
+.category .cs-post-block-layout-3 .cs-post-item .cs-post-thumb, .tag .cs-post-block-layout-3 .cs-post-item .cs-post-thumb{
 	width: 40%;
 	float: left;
 	margin-right: 20px;
 }
 
-.category .cs-post-item .cs-post-inner h3 {
+.category .cs-post-item .cs-post-inner h3, .tag .cs-post-item .cs-post-inner h3{
 	font-size: 20px;
 }
 
-.category .cs-post-category-border:first-child {
+.category .cs-post-category-border:first-child, .tag .cs-post-category-border:first-child {
 	display: none;
 }
 
-.category .cs-post-category-border a {
+.category .cs-post-category-border a, .tag .cs-post-category-border a {
 	color: white !important;
 	background: #8a8b8c !important;
 	margin-top: 35px;
 }
 
-.category .cs-post-category-border a:hover {
+.category .cs-post-category-border a:hover, .tag .cs-post-category-border a:hover {
 	color: white !important;
 	background: #8a8b8c !important;
 }
 
-.category .cs-post-category-border a::before {
+.category .cs-post-category-border a::before, .tag .cs-post-category-border a::before {
 	display: none;
 }
 
-.category .cs-post-meta span {
+.category .cs-post-meta span, .tag .cs-post-meta span{
 	font-size: 12px;
 	color: #666;
 }
 
-.category .cs-post-meta-author {
+.category .cs-post-meta-author, .tag .cs-post-meta-author {
 	display: none;
 }
+
+
+
+
+
+
+
 
 .cs-post-meta-author a:hover {
 	text-decoration: none;
@@ -1143,7 +1158,7 @@ aside > ul > li > a:hover {
 	color: #8A181B;
 }
 
-.category .cs-post-meta {
+.category .cs-post-meta, .tag .cs-post-meta {
 	font-size: 13px;
 }
 
@@ -1187,3 +1202,46 @@ aside > ul > li > a:hover {
 .tax-profession .cs-post-meta {
 	display: none !important;
 }
+
+.tag .cs-post-block-layout-3{
+    
+    margin-bottom: 0px !important;
+    
+}
+
+.single-tribe_events .tribe-events-sub-nav{
+    
+    display: none;
+    
+}
+
+.question{
+    
+    text-align: left !important;
+    margin-bottom: 10px !important;
+    font-weight: bold;
+    
+}
+.yop_poll_vote_button{
+    
+    margin-top: 15px !important;
+    float: right;
+    
+}
+
+.yop-poll-container{
+    
+    margin-top: -20px !important;
+    margin-left: -10px;
+    
+}
+
+.cs-widget_latest_posts .cs-post-meta-date{
+    
+    margin-top:10px;
+    
+}
+
+
+
+
