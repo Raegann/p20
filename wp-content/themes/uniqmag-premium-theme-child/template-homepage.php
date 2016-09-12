@@ -51,7 +51,7 @@ Template Name: Drag & Drop Page Builder
         
         <div class="cs-container container-hpgallery">
            <div class="cs-row">
-            <h2>Galerie</h2>
+            <h2>Fotogalerie</h2>
                     <?php
 
 $gal = foogallery_get_all_galleries();
