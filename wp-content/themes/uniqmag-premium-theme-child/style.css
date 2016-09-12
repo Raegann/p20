@@ -1187,3 +1187,7 @@ aside > ul > li > a:hover {
 .tax-profession .cs-post-meta {
 	display: none !important;
 }
+.cs-widget_latest_posts .cs-post-item .cs-post-inner .cs-post-category-empty, .cs-widget_latest_posts .cs-post-item .cs-post-inner .cs-post-category-solid, .cs-widget_latest_posts .cs-post-item .cs-post-inner .cs-post-category-border
+{
+    margin-bottom: 10px;
+}

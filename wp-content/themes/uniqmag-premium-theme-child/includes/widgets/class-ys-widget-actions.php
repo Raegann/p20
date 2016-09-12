@@ -75,13 +75,19 @@ class YS_Widget_Actions extends WP_Widget {
 			'post_status'         => 'publish',
 			'ignore_sticky_posts' => true
 		) ) );
-
-		if ($r->have_posts()) :
-		?>
+                ?>
+                <p>TEST</p>
+		<?php if ($r->have_posts()) : ?>
 		<?php echo $args['before_widget']; ?>
 		<?php if ( $title ) {
 			echo $args['before_title'] . $title . $args['after_title'];
 		} ?>
+                <form method="post" name="actions_filter" id="actions_filter">
+                    <select name="filter_types">
+                        <option name="filter_days" value="3_days">Příští 3 dny</option>
+                        <option name="filter_days" value="nearest_date">Nejbližší akce</option>
+                    </select>
+                </form>
 		<ul class="widget-workingplaces">
 		<?php while ( $r->have_posts() ) : $r->the_post(); ?>
                         <?php $categories = get_the_category(get_the_ID()); ?>

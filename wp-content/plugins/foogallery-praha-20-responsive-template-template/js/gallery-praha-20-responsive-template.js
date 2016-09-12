@@ -13,7 +13,7 @@ function FooGallery_Default_Ready(callback) {
 }
 
 FooGallery_Default_Ready(function () {
-    var galleries = document.querySelectorAll('.foogallery-default-loading'),
+    var galleries = document.querySelectorAll('.foogallery-praha-20-responsive-template-loading'),
         isElement = function(obj){
             return typeof HTMLElement === 'object' ? obj instanceof HTMLElement : obj && typeof obj === 'object' && obj !== null && obj.nodeType === 1 && typeof obj.nodeName === 'string';
         },
@@ -34,7 +34,7 @@ FooGallery_Default_Ready(function () {
         };
     if (typeof(imagesLoaded) != 'undefined') {
         imagesLoaded(galleries, function () {
-            removeClass(galleries, 'foogallery-default-loading');
+            removeClass(galleries, 'foogallery-praha-20-responsive-template-loading');
 
             //force a resize event so certain themes can update their layout
             if (window.fireEvent && document.createEventObject) window.fireEvent('onresize', document.createEventObject());

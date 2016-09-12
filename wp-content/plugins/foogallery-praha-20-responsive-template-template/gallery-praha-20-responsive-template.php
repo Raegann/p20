@@ -18,7 +18,7 @@ $alignment = foogallery_gallery_template_setting( 'alignment', 'alignment-center
 $hover_effect_type = foogallery_gallery_template_setting( 'hover-effect-type', '' );
 $caption_hover_effect = foogallery_gallery_template_setting( 'caption-hover-effect', 'hover-caption-simple' );
 $caption_content = foogallery_gallery_template_setting( 'caption-content', 'title' );
-$loading_animation = 'yes' === foogallery_gallery_template_setting( 'loading_animation', 'yes' ) ? 'foogallery-default-loading' : '';
+$loading_animation = 'yes' === foogallery_gallery_template_setting( 'loading_animation', 'yes' ) ? 'foogallery-praha-20-responsive-template-loading' : '';
 if ( 'hover-effect-caption' === $hover_effect_type ||
 		'hover-effect-none' === $hover_effect_type ) {
 	$hover_effect = '';
